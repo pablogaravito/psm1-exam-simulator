@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PSM-I Exam Simulator by Pablis</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <div class="header">
+        <div class="header-content">
+          <h1>🎓 PSM-I Exam Simulator</h1>
+          <div class="timer" id="timer">
+            <span>⏱️</span>
+            <span id="timeDisplay">60:00</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- setup Screen -->
+      <div class="setup-screen" id="setupScreen">
+        <h2>Configure Your Practice Exam</h2>
+
+        <div class="setup-options">
+          <div class="option-group">
+            <label>Number of Questions:</label>
+            <select id="questionCount">
+              <option value="30">30 Questions (Practice)</option>
+              <option value="50">50 Questions (Medium)</option>
+              <option value="80" selected>80 Questions (Full Exam)</option>
+            </select>
+          </div>
+
+          <div class="option-group">
+            <label>Time Limit (minutes):</label>
+            <select id="timeLimit">
+              <option value="30">30 Minutes</option>
+              <option value="45">45 Minutes</option>
+              <option value="60" selected>60 Minutes (Standard)</option>
+              <option value="90">90 Minutes</option>
+              <option value="0">No Limit</option>
+            </select>
+          </div>
+
+          <div class="option-group">
+            <label>Difficulty:</label>
+            <select id="difficulty">
+              <option value="all" selected>All Levels</option>
+              <option value="easy">Easy Only</option>
+              <option value="medium">Medium Only</option>
+              <option value="hard">Hard Only</option>
+              <option value="mixed">Mixed (Realistic)</option>
+            </select>
+          </div>
+        </div>
+        <button class="btn-primary" id="startExamBtn">Start Exam</button>
+      </div>
+
+      <!-- exam Screen -->
+      <div class="exam-screen" id="examScreen">
+        <div class="progress-bar">
+          <div class="progress-info">
+            <span>Progress: <strong id="progressText">0/80</strong></span>
+            <span>Answered: <strong id="answeredCount">0</strong></span>
+          </div>
+          <div class="progress-track">
+            <div
+              class="progress-fill"
+              id="progressFill"
+              style="width: 0%"
+            ></div>
+          </div>
+        </div>
+
+        <div class="question-container">
+          <div class="question-card" id="questionCard">
+            <!-- question content will be inserted here -->
+          </div>
+
+          <div class="navigation">
+            <button class="btn-secondary" id="prevBtn">← Previous</button>
+            <button class="btn-primary" id="nextBtn">Next →</button>
+            <button class="btn-primary hidden" id="submitBtn">
+              Submit Exam
+            </button>
+          </div>
+
+          <div class="question-nav">
+            <h4>Question Navigation</h4>
+            <div class="question-grid" id="questionGrid"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- results Screen -->
+      <div class="results-screen" id="resultsScreen">
+        <div class="results-header">
+          <h2>Exam Complete!</h2>
+          <div class="results-score" id="finalScore">0%</div>
+          <div class="results-status" id="passStatus">--</div>
+        </div>
+
+        <div class="results-details">
+          <div class="result-card">
+            <div class="result-value" id="correctCount">0</div>
+            <div class="result-label">Correct Answers</div>
+          </div>
+          <div class="result-card">
+            <div class="result-value" id="incorrectCount">0</div>
+            <div class="result-label">Incorrect Answers</div>
+          </div>
+          <div class="result-card">
+            <div class="result-value" id="timeSpent">0:00</div>
+            <div class="result-label">Time Spent</div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px">
+          <button class="btn-primary" id="reviewAnswersBtn">
+            Review Answers
+          </button>
+          <button class="btn-secondary" id="restartExamBtn">New Exam</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
