@@ -8,21 +8,20 @@
   </head>
   <body>
     <div class="container">
-      <!-- header -->
+      <!-- Header -->
       <div class="header">
         <div class="header-content">
           <h1>🎓 PSM-I Exam Simulator by Pablis</h1>
-          <div class="timer" id="timer">
+          <div class="timer hidden" id="timer">
             <span>⏱️</span>
             <span id="timeDisplay">60:00</span>
           </div>
         </div>
       </div>
 
-      <!-- setup Screen -->
+      <!-- Setup Screen -->
       <div class="setup-screen" id="setupScreen">
         <h2>Configure Your Practice Exam</h2>
-
         <div class="setup-options">
           <div class="option-group">
             <label>Number of Questions:</label>
@@ -32,7 +31,6 @@
               <option value="80" selected>80 Questions (Full Exam)</option>
             </select>
           </div>
-
           <div class="option-group">
             <label>Time Limit (minutes):</label>
             <select id="timeLimit">
@@ -43,7 +41,6 @@
               <option value="0">No Limit</option>
             </select>
           </div>
-
           <div class="option-group">
             <label>Difficulty:</label>
             <select id="difficulty">
@@ -58,7 +55,7 @@
         <button class="btn-primary" id="startExamBtn">Start Exam</button>
       </div>
 
-      <!-- exam Screen -->
+      <!-- Exam Screen -->
       <div class="exam-screen" id="examScreen">
         <div class="progress-bar">
           <div class="progress-info">
@@ -76,15 +73,22 @@
 
         <div class="question-container">
           <div class="question-card" id="questionCard">
-            <!-- question content will be inserted here -->
+            <!-- Question content will be inserted here -->
           </div>
 
           <div class="navigation">
-            <button class="btn-secondary" id="prevBtn">← Previous</button>
-            <button class="btn-primary" id="nextBtn">Next →</button>
-            <button class="btn-primary hidden" id="submitBtn">
-              Submit Exam
-            </button>
+            <div style="display: flex; gap: 15px; flex: 1">
+              <button class="btn-secondary" id="prevBtn">← Previous</button>
+              <button class="btn-secondary" id="flagBtn">
+                🚩 Flag for Review
+              </button>
+            </div>
+            <div style="display: flex; gap: 15px">
+              <button class="btn-primary" id="nextBtn">Next →</button>
+              <button class="btn-primary hidden" id="submitBtn">
+                Submit Exam
+              </button>
+            </div>
           </div>
 
           <div class="question-nav">
@@ -94,7 +98,7 @@
         </div>
       </div>
 
-      <!-- results Screen -->
+      <!-- Results Screen -->
       <div class="results-screen" id="resultsScreen">
         <div class="results-header">
           <h2>Exam Complete!</h2>

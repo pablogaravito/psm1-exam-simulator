@@ -21,6 +21,7 @@ body {
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
 }
 
+/* Header */
 .header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -123,6 +124,7 @@ body {
   font-size: 13px;
 }
 
+/* Buttons */
 button {
   padding: 14px 32px;
   border: none;
@@ -280,6 +282,7 @@ button {
   margin-top: 30px;
 }
 
+/* Question Navigation */
 .question-nav {
   background: #f7fafc;
   padding: 20px;
@@ -322,6 +325,29 @@ button {
   background: #764ba2;
   color: white;
   border-color: #764ba2;
+}
+
+.question-btn.flagged {
+  background: #f59e0b;
+  color: white;
+  border-color: #f59e0b;
+}
+
+.question-btn.flagged.current {
+  background: #d97706;
+  border-color: #d97706;
+}
+
+.question-btn.wrong {
+  background: #f56565;
+  color: white;
+  border-color: #f56565;
+}
+
+.question-btn.correct-answer {
+  background: #48bb78;
+  color: white;
+  border-color: #48bb78;
 }
 
 /* Results Screen */

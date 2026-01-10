@@ -1,15 +1,23 @@
-// Global variables
+// Global state variables
 let allQuestions = [];
 let examQuestions = [];
 let currentQuestionIndex = 0;
 let userAnswers = [];
+let flaggedQuestions = [];
+let questionResults = [];
 let timerInterval = null;
 let timeRemaining = 0;
 let startTime = 0;
 let examSubmitted = false;
 
 // DOM elements
-let startExamBtn, prevBtn, nextBtn, submitBtn, reviewAnswersBtn, restartExamBtn;
+let startExamBtn,
+  prevBtn,
+  nextBtn,
+  submitBtn,
+  flagBtn,
+  reviewAnswersBtn,
+  restartExamBtn;
 
 // Initialize when DOM is loaded
 document.addEventListener("DOMContentLoaded", () => {
@@ -18,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   prevBtn = document.getElementById("prevBtn");
   nextBtn = document.getElementById("nextBtn");
   submitBtn = document.getElementById("submitBtn");
+  flagBtn = document.getElementById("flagBtn");
   reviewAnswersBtn = document.getElementById("reviewAnswersBtn");
   restartExamBtn = document.getElementById("restartExamBtn");
 
@@ -26,10 +35,12 @@ document.addEventListener("DOMContentLoaded", () => {
   prevBtn.addEventListener("click", previousQuestion);
   nextBtn.addEventListener("click", nextQuestion);
   submitBtn.addEventListener("click", submitExam);
+  flagBtn.addEventListener("click", toggleFlag);
   reviewAnswersBtn.addEventListener("click", reviewAnswers);
   restartExamBtn.addEventListener("click", restartExam);
 });
 
+// Load questions from questions.json file
 async function loadQuestionsFromFile() {
   try {
     const response = await fetch("questions.json");
@@ -42,6 +53,7 @@ async function loadQuestionsFromFile() {
   }
 }
 
+// Main exam start function
 async function startExam() {
   // Load questions from file if not already loaded
   if (allQuestions.length === 0) {
@@ -76,12 +88,14 @@ async function startExam() {
     return {
       ...q,
       questionText: decrypted.question,
-      options: shuffleArray(decrypted.options), // Shuffle options
+      options: shuffleArray(decrypted.options),
     };
   });
 
   // Initialize
   userAnswers = new Array(examQuestions.length).fill(null);
+  flaggedQuestions = new Array(examQuestions.length).fill(false);
+  questionResults = new Array(examQuestions.length).fill(null);
   currentQuestionIndex = 0;
   examSubmitted = false;
   startTime = Date.now();
@@ -102,10 +116,10 @@ async function startExam() {
   renderQuestion();
 }
 
+// Question selection logic
 function selectQuestions(questions, count, difficulty) {
   let filtered = questions;
 
-  // Filter by difficulty
   if (difficulty !== "all") {
     if (difficulty === "mixed") {
       // Realistic mix: 30% easy, 50% medium, 20% hard
@@ -127,10 +141,10 @@ function selectQuestions(questions, count, difficulty) {
     }
   }
 
-  // Shuffle and select
   return shuffleArray(filtered).slice(0, count);
 }
 
+// Utility: Shuffle array
 function shuffleArray(array) {
   const arr = [...array];
   for (let i = arr.length - 1; i > 0; i--) {
@@ -140,6 +154,7 @@ function shuffleArray(array) {
   return arr;
 }
 
+// Render current question
 function renderQuestion() {
   const question = examQuestions[currentQuestionIndex];
   const inputType = question.multipleCorrect ? "checkbox" : "radio";
@@ -198,23 +213,44 @@ function renderQuestion() {
   });
 
   // Update buttons
-  document.getElementById("prevBtn").disabled = currentQuestionIndex === 0;
-  document
-    .getElementById("nextBtn")
-    .classList.toggle(
-      "hidden",
-      currentQuestionIndex === examQuestions.length - 1 || examSubmitted
-    );
-  document
-    .getElementById("submitBtn")
-    .classList.toggle(
-      "hidden",
-      currentQuestionIndex !== examQuestions.length - 1 || examSubmitted
-    );
+  prevBtn.disabled = currentQuestionIndex === 0;
+  nextBtn.classList.toggle(
+    "hidden",
+    currentQuestionIndex === examQuestions.length - 1 && !examSubmitted
+  );
+  submitBtn.classList.toggle(
+    "hidden",
+    currentQuestionIndex !== examQuestions.length - 1 || examSubmitted
+  );
+
+  // Update flag button
+  if (examSubmitted) {
+    flagBtn.style.display = "none";
+  } else {
+    flagBtn.style.display = "block";
+    flagBtn.textContent = flaggedQuestions[currentQuestionIndex]
+      ? "🚩 Flagged"
+      : "🚩 Flag for Review";
+    flagBtn.style.background = flaggedQuestions[currentQuestionIndex]
+      ? "#f59e0b"
+      : "#e2e8f0";
+    flagBtn.style.color = flaggedQuestions[currentQuestionIndex]
+      ? "white"
+      : "#2d3748";
+  }
 
   updateProgress();
 }
 
+// Toggle flag on current question
+function toggleFlag() {
+  flaggedQuestions[currentQuestionIndex] =
+    !flaggedQuestions[currentQuestionIndex];
+  renderQuestion();
+  renderQuestionNavigation();
+}
+
+// Handle option selection
 function selectOption(optionIndex) {
   if (examSubmitted) return;
 
@@ -224,7 +260,6 @@ function selectOption(optionIndex) {
   );
 
   if (question.multipleCorrect) {
-    // Toggle checkbox
     checkbox.checked = !checkbox.checked;
   } else {
     // Radio behavior - uncheck all others
@@ -237,11 +272,11 @@ function selectOption(optionIndex) {
   saveAnswer(optionIndex);
 }
 
+// Save answer
 function saveAnswer(optionIndex) {
   const question = examQuestions[currentQuestionIndex];
 
   if (question.multipleCorrect) {
-    // Get all checked options
     const checked = [];
     question.options.forEach((_, idx) => {
       const checkbox = document.getElementById(
@@ -251,7 +286,6 @@ function saveAnswer(optionIndex) {
     });
     userAnswers[currentQuestionIndex] = checked;
   } else {
-    // Single selection
     userAnswers[currentQuestionIndex] = [optionIndex];
   }
 
@@ -259,6 +293,7 @@ function saveAnswer(optionIndex) {
   renderQuestionNavigation();
 }
 
+// Get option class for results
 function getOptionClass(questionIndex, optionIndex) {
   const question = examQuestions[questionIndex];
   const userAnswer = userAnswers[questionIndex] || [];
@@ -271,6 +306,7 @@ function getOptionClass(questionIndex, optionIndex) {
   return "";
 }
 
+// Navigation functions
 function nextQuestion() {
   if (currentQuestionIndex < examQuestions.length - 1) {
     currentQuestionIndex++;
@@ -290,6 +326,7 @@ function jumpToQuestion(index) {
   renderQuestion();
 }
 
+// Render question navigation grid
 function renderQuestionNavigation() {
   const grid = document.getElementById("questionGrid");
   grid.innerHTML = "";
@@ -300,9 +337,24 @@ function renderQuestionNavigation() {
     btn.textContent = index + 1;
     btn.onclick = () => jumpToQuestion(index);
 
+    // Current question
     if (index === currentQuestionIndex) {
       btn.classList.add("current");
-    } else if (userAnswers[index] && userAnswers[index].length > 0) {
+    }
+    // Show results if exam submitted
+    else if (examSubmitted && questionResults[index] !== null) {
+      if (questionResults[index]) {
+        btn.classList.add("correct-answer");
+      } else {
+        btn.classList.add("wrong");
+      }
+    }
+    // Flagged during exam
+    else if (flaggedQuestions[index]) {
+      btn.classList.add("flagged");
+    }
+    // Answered
+    else if (userAnswers[index] && userAnswers[index].length > 0) {
       btn.classList.add("answered");
     }
 
@@ -310,6 +362,7 @@ function renderQuestionNavigation() {
   });
 }
 
+// Update progress indicators
 function updateProgress() {
   const answered = userAnswers.filter((a) => a && a.length > 0).length;
   const percentage = (currentQuestionIndex / examQuestions.length) * 100;
@@ -321,6 +374,7 @@ function updateProgress() {
   document.getElementById("progressFill").style.width = percentage + "%";
 }
 
+// Timer functions
 function startTimer() {
   const timerDisplay = document.getElementById("timeDisplay");
   const timerElement = document.getElementById("timer");
@@ -334,18 +388,15 @@ function startTimer() {
       .toString()
       .padStart(2, "0")}`;
 
-    // Warning at 10 minutes
     if (timeRemaining === 600) {
       timerElement.classList.add("warning");
     }
 
-    // Critical at 5 minutes
     if (timeRemaining === 300) {
       timerElement.classList.remove("warning");
       timerElement.classList.add("critical");
     }
 
-    // Time's up
     if (timeRemaining <= 0) {
       clearInterval(timerInterval);
       alert("Time is up! Submitting your exam...");
@@ -354,6 +405,7 @@ function startTimer() {
   }, 1000);
 }
 
+// Submit exam
 function submitExam() {
   if (!examSubmitted) {
     const unanswered = userAnswers.filter((a) => !a || a.length === 0).length;
@@ -373,6 +425,7 @@ function submitExam() {
   calculateResults();
 }
 
+// Calculate and display results
 function calculateResults() {
   let correct = 0;
 
@@ -387,6 +440,7 @@ function calculateResults() {
       userAnswer.length === correctAnswers.length &&
       userAnswer.every((idx) => correctAnswers.includes(idx));
 
+    questionResults[index] = isCorrect;
     if (isCorrect) correct++;
   });
 
@@ -410,11 +464,15 @@ function calculateResults() {
     .toString()
     .padStart(2, "0")}`;
 
+  // Update navigation to show results
+  renderQuestionNavigation();
+
   // Show results screen
   document.getElementById("examScreen").classList.remove("active");
   document.getElementById("resultsScreen").classList.add("active");
 }
 
+// Review answers
 function reviewAnswers() {
   document.getElementById("resultsScreen").classList.remove("active");
   document.getElementById("examScreen").classList.add("active");
@@ -422,6 +480,7 @@ function reviewAnswers() {
   renderQuestion();
 }
 
+// Restart exam
 function restartExam() {
   location.reload();
 }

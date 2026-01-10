@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-01-09",
+  "lastUpdated": "2026-01-10",
   "questions": [
     {
       "id": 1,
@@ -136,13 +136,6 @@
       "data": "eyJxdWVzdGlvbiI6IldoeSBzaG91bGQgdGhlIFByb2R1Y3QgT3duZXIgYmUgcHJlc2VudCBhdCB0aGUgRGFpbHkgU2NydW0/IChjaG9vc2UgdGhlIGJlc3QgYW5zd2VyKSIsIm9wdGlvbnMiOlt7InRleHQiOiJIZS9TaGUgZG9lc24ndCBuZWVkIHRvIGJlIHRoZXJlLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IlRvIGhlYXIgYWJvdXQgaW1wZWRpbWVudHMgaW4gZnVuY3Rpb25hbGl0eS4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVG8gcmVwcmVzZW50IHRoZSBzdGFrZWhvbGRlcidzIHBvaW50IG9mIHZpZXcuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRvIHBhcnRpY2lwYXRlIGFzIGEgU2NydW0gVGVhbSBtZW1iZXIuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
     },
     {
-      "id": 22,
-      "difficulty": "medium",
-      "topic": "Scrum Master",
-      "multipleCorrect": true,
-      "data": "eyJxdWVzdGlvbiI6IldoYXQgdHdvIHRlY2huaXF1ZXMgY291bGQgdGhlIFNjcnVtIE1hc3RlciB1c2Ugd2hlbiB0aGUgU2NydW0gVGVhbSBnZXRzIGNhdWdodCBpbiBhbiBpbnRlcm5hbCBkaXNhZ3JlZW1lbnQgYWJvdXQgd2hpY2ggZGV2ZWxvcG1lbnQgdGVjaG5pcXVlcyB0byBhcHBseT8gKGNob29zZSB0aGUgYmVzdCB0d28gYW5zd2VycykiLCJvcHRpb25zIjpbeyJ0ZXh0IjoiSW52b2x2ZSB0aGUgY29tcGxldGUgU2NydW0gVGVhbS4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJVc2UgY29hY2hpbmcgdGVjaG5pcXVlczsgc3VjaCBhcyBvcGVuIHF1ZXN0aW9ucyBhbmQgYWN0aXZlIGxpc3RlbmluZy4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJBc2sgYW4gZXh0ZXJuYWwgdGVjaG5pY2FsIHNwZWNpYWxpc3QgdG8gbWFrZSB0aGUgZGVjaXNpb24uIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlNlbmQgZXZlcnkgdGVhbSBtZW1iZXIgdG8gdGhlIGNvbXBhbnkncyBIdW1hbiBSZXNvdXJjZXMgZGVwYXJ0bWVudCB0byBleHByZXNzIHRoZWlyIGNvbmNlcm5zLiIsImNvcnJlY3QiOmZhbHNlfV19"
-    },
-    {
       "id": 23,
       "difficulty": "medium",
       "topic": "Definition of Done",
@@ -263,8 +256,8 @@
     },
     {
       "id": 41,
-      "difficulty": "medium",
-      "topic": "",
+      "difficulty": "easy",
+      "topic": "Sprint Review",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IldoaWNoIHN0YXRlbWVudCBiZXN0IGRlc2NyaWJlcyB0aGUgU3ByaW50IFJldmlldz8gKGNob29zZSB0aGUgYmVzdCBhbnN3ZXIpIiwib3B0aW9ucyI6W3sidGV4dCI6Ikl0IGlzIHVzZWQgdG8gY29uZ3JhdHVsYXRlIHRoZSBEZXZlbG9wZXJzIGlmIGl0IGRpZCB3aGF0IGl0IGZvcmVjYXN0LCBvciB0byBwdW5pc2ggdGhlIERldmVsb3BlcnMgaWYgaXQgZmFpbGVkIHRvIG1lZXQgaXRzIGZvcmVjYXN0LiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJJdCBpcyBhIGRlbW8gYXQgdGhlIGVuZCBvZiB0aGUgU3ByaW50IGZvciBldmVyeW9uZSBpbiB0aGUgb3JnYW5pemF0aW9uIHRvIGNoZWNrIG9uIHRoZSB3b3JrIGRvbmUuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6Ikl0IGlzIGEgbWVjaGFuaXNtIHRvIGNvbnRyb2wgdGhlIERldmVsb3BlcnMgYWN0aXZpdGllcyBkdXJpbmcgYSBTcHJpbnQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6Ikl0IGlzIHdoZW4gdGhlIFNjcnVtIFRlYW0gYW5kIHN0YWtlaG9sZGVycyBpbnNwZWN0IHRoZSBvdXRjb21lIG9mIGEgU3ByaW50IGFuZCBmaWd1cmUgb3V0IHdoYXQgdG8gZG8gbmV4dC4iLCJjb3JyZWN0Ijp0cnVlfV19"
     },
@@ -277,8 +270,8 @@
     },
     {
       "id": 43,
-      "difficulty": "medium",
-      "topic": "",
+      "difficulty": "easy",
+      "topic": "The Sprint",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IldoZW4gbWlnaHQgYSBTcHJpbnQgYmUgYWJub3JtYWxseSBjYW5jZWxsZWQ/IChjaG9vc2UgdGhlIGJlc3QgYW5zd2VyKSIsIm9wdGlvbnMiOlt7InRleHQiOiJXaGVuIHRoZSBTY3J1bSBUZWFtIGZlZWxzIHRoYXQgdGhlIHdvcmsgaXMgdG9vIGhhcmQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IldoZW4gdGhlIFNwcmludCBHb2FsIGJlY29tZXMgb2Jzb2xldGUuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiV2hlbiB0aGUgc2FsZXMgZGVwYXJ0bWVudCBoYXMgYW4gaW1wb3J0YW50IG5ldyBvcHBvcnR1bml0eS4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiV2hlbiBpdCBiZWNvbWVzIGNsZWFyIHRoYXQgbm90IGV2ZXJ5dGhpbmcgd2lsbCBiZSBmaW5pc2hlZCBieSB0aGUgZW5kIG9mIHRoZSBTcHJpbnQuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
     },
@@ -320,9 +313,9 @@
     {
       "id": 49,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Team",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IlRydWUgb3IgRmFsc2U6IEV2ZXJ5IFNjcnVtIHRlYW0gbXVzdCBoYXZlIGEgUHJvZHVjdCBPd25lciBhbmQgU2NydW0gTWFzdGVyLiIsIm9wdGlvbnMiOlt7InRleHQiOiJUcnVlLiBPdXRjb21lcyBhZmZlY3RlZCBieSB0aGVpciBwYXJ0aWNpcGF0aW9uIGFuZCBhdmFpbGFiaWxpdHkuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiRmFsc2UuIEEgUHJvZHVjdCBPd25lciBjYW4gYmUgcmVwbGFjZWQgYnkgYSBidXNpbmVzcyBhbmFseXN0IGluIHRoZSBTY3J1bSBUZWFtLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJGYWxzZS4gQSBTY3J1bSBNYXN0ZXIgaXMgb25seSByZXF1aXJlZCB3aGVuIGFza2VkIGZvciBieSB0aGUgU2NydW0gVGVhbS4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVHJ1ZS4gRWFjaCBtdXN0IGJlIDEwMCUgZGVkaWNhdGVkIHRvIHRoZSBTY3J1bSBUZWFtLiIsImNvcnJlY3QiOmZhbHNlfV19"
+      "data": "eyJxdWVzdGlvbiI6IlRydWUgb3IgRmFsc2U6IEV2ZXJ5IFNjcnVtIHRlYW0gbXVzdCBoYXZlIGEgUHJvZHVjdCBPd25lciBhbmQgU2NydW0gTWFzdGVyLiIsIm9wdGlvbnMiOlt7InRleHQiOiJUcnVlLiBUaGVzZSBhY2NvdW50YWJpbGl0aWVzIGFyZSByZXF1aXJlZCByb2xlcyBpbiBTY3J1bS4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJGYWxzZS4gQSBQcm9kdWN0IE93bmVyIGNhbiBiZSByZXBsYWNlZCBieSBhIGNvbXBldGVudCBidXNpbmVzcyBhbmFseXN0IHdpdGggc29tZSBhZGp1c3RpbmcuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkZhbHNlLiBBIFNjcnVtIE1hc3RlciBjYW4gYmUgb3B0aW9uYWwgZGVwZW5kaW5nIG9uIHRlYW0gZXhwZXJpZW5jZSB3aXRoIFNjcnVtLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUcnVlLiBUaGVzZSByb2xlcyBtdXN0IGJlIGZ1bGx5IGRlZGljYXRlZCB0byBvbmUgU2NydW0gVGVhbS4iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
     },
     {
       "id": 50,
@@ -375,10 +368,10 @@
     },
     {
       "id": 57,
-      "difficulty": "medium",
-      "topic": "",
+      "difficulty": "easy",
+      "topic": "Scrum Team",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHJlY29tbWVuZGVkIHNpemUgZm9yIHRoZSBEZXZlbG9wZXJzPyAoY2hvb3NlIHRoZSBiZXN0IGFuc3dlcikiLCJvcHRpb25zIjpbeyJ0ZXh0IjoiNyBwbHVzIG9yIG1pbnVzIDMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkF0IGxlYXN0IDcuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IjkuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IjMgdG8gOS4iLCJjb3JyZWN0Ijp0cnVlfV19"
+      "data": "eyJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHJlY29tbWVuZGVkIHNpemUgb2YgYSBTY3J1bSBUZWFtPyAoY2hvb3NlIHRoZSBiZXN0IGFuc3dlcikiLCJvcHRpb25zIjpbeyJ0ZXh0IjoiNyBwbHVzIG9yIG1pbnVzIDIgcGVvcGxlLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiIxMCBvciBmZXdlciBwZW9wbGUuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiQXQgbGVhc3QgNSBwZW9wbGUgdG8gZW5zdXJlIGFsbCBza2lsbHMgYXJlIGNvdmVyZWQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IjMgdG8gOS4iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
     },
     {
       "id": 58,
@@ -439,7 +432,7 @@
     {
       "id": 66,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Definition of Done",
       "multipleCorrect": true,
       "data": "eyJxdWVzdGlvbiI6IldoYXQgYXJlIHR3byB3YXlzIHRoYXQgcmVndWxhdG9yeSBjb21wbGlhbmNlIHJlcXVpcmVtZW50cyBhcmUgZGVhbHQgd2l0aCBpbiBTY3J1bT8gKGNob29zZSB0aGUgYmVzdCB0d28gYW5zd2VycykiLCJvcHRpb25zIjpbeyJ0ZXh0IjoiVGhleSBhcmUgYWRkcmVzc2VkIGJ5IGEgc2VwYXJhdGUgdGVhbSB3aG8gaXMgcmVzcG9uc2libGUgZm9yIGNvbXBsaWFuY2UgaXNzdWVzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGV5IGFyZSBkaXNjdXNzZWQsIGFuYWx5emVkLCBhbmQgZG9jdW1lbnRlZCBiZWZvcmUgdGhlIGZpcnN0IFNwcmludCBjYW4gYmVnaW4uIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRoZXkgYXJlIGFkZGVkIHRvIHRoZSBQcm9kdWN0IEJhY2tsb2cgYW5kIGFkZHJlc3NlZCBkdXJpbmcgZWFjaCBTcHJpbnQsIGFsb25nc2lkZSB0aGUgY3JlYXRpb24gb2YgbmV3IFByb2R1Y3QgY2FwYWJpbGl0aWVzLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IlRoZXkgYXJlIGFkZHJlc3NlZCBhcyBwYXJ0IG9mIG1lZXRpbmcgdGhlIERlZmluaXRpb24gb2YgRG9uZSBkdXJpbmcgZWFjaCBTcHJpbnQuIiwiY29ycmVjdCI6dHJ1ZX1dfQ=="
     },
@@ -474,9 +467,9 @@
     {
       "id": 71,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Team",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHRhY3RpYyBhIFNjcnVtIE1hc3RlciBzaG91bGQgdXNlIHRvIGRpdmlkZSBhIGdyb3VwIG9mIDEwMCBwZW9wbGUgaW50byBtdWx0aXBsZSBTY3J1bSBUZWFtcz8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiQ3JlYXRlIHRlYW1zIGJhc2VkIG9uIHRoZWlyIHNraWxscyBhY3Jvc3MgbXVsdGlwbGUgbGF5ZXJzIChzdWNoIGFzIGRhdGFiYXNlLCBVSSwgZXRjLikiLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiQXNrIHRoZSBQcm9kdWN0IE93bmVyIHRvIGFzc2lnbiB0aGUgcGVvcGxlIHRvIHRlYW1zLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJBc2sgdGhlIERldmVsb3BlcnMgdG8gZGl2aWRlIHRoZW1zZWx2ZXMgaW50byB0ZWFtcy4iLCJjb3JyZWN0Ijp0cnVlfV19"
+      "data": "eyJxdWVzdGlvbiI6IldoZW4gZm9ybWluZyBtdWx0aXBsZSBTY3J1bSBUZWFtcywgd2hpY2ggYXBwcm9hY2ggYmVzdCBhbGlnbnMgd2l0aCBTY3J1beKAmXMgcHJpbmNpcGxlIG9mIHNlbGYtbWFuYWdlbWVudD8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiQ3JlYXRpbmcgdGVhbXMgYmFzZWQgb24gdGhlaXIgc2tpbGxzIChkYXRhYmFzZSBUZWFtLCBVSSBUZWFtLCB0ZXN0aW5nIFRlYW0sIGV0Yy4pLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJMZXR0aW5nIHRoZSBQcm9kdWN0IE93bmVyIGFzc2lnbiB0aGUgcGVvcGxlIHRvIHRlYW1zLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJBbGxvd2luZyBEZXZlbG9wZXJzIHRvIHNlbGYtb3JnYW5pemUgaW50byBTY3J1bSBUZWFtcy4iLCJjb3JyZWN0Ijp0cnVlfV19"
     },
     {
       "id": 72,
@@ -495,7 +488,7 @@
     {
       "id": 74,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Daily Scrum",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IkhvdyBpcyBtYW5hZ2VtZW50IGV4dGVybmFsIHRvIHRoZSBTY3J1bSBUZWFtIGludm9sdmVkIGluIHRoZSBEYWlseSBTY3J1bT8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiVGhlIFNjcnVtIE1hc3RlciBzcGVha3Mgb24gdGhlaXIgYmVoYWxmLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGUgU2NydW0gVGVhbSBzZWxmLW1hbmFnZXMgYW5kIGlzIHRoZSBvbmx5IG1hbmFnZW1lbnQgcmVxdWlyZWQgYXQgdGhlIERhaWx5IFNjcnVtLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6Ik1hbmFnZW1lbnQgZ2l2ZXMgYW4gdXBkYXRlIGF0IHRoZSBzdGFydCBvZiBlYWNoIERhaWx5IFNjcnVtLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGUgUHJvZHVjdCBPd25lciByZXByZXNlbnRzIHRoZWlyIG9waW5pb25zLiIsImNvcnJlY3QiOmZhbHNlfV19"
     },
@@ -509,9 +502,9 @@
     {
       "id": 76,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Values",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IldoaWNoIFNjcnVtIFZhbHVlIGlzIGFmZmVjdGVkIGJ5IGEgbGFjayBvZiB0cnVzdCBpbiB0aGUgU2NydW0gVGVhbT8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiRm9jdXMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlJlc3BlY3QuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6Ik9wZW5uZXNzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJDb3VyYWdlLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJDb21taXRtZW50LiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJBbGwgb2YgdGhlIGFib3ZlLiIsImNvcnJlY3QiOnRydWV9XX0="
+      "data": "eyJxdWVzdGlvbiI6IldoaWNoIFNjcnVtIFZhbHVlIGlzIG1vc3QgZGlyZWN0bHkgaW1wYWN0ZWQgd2hlbiBTY3J1bSBUZWFtIG1lbWJlcnMgYXJlIGFmcmFpZCB0byBiZSB0cmFuc3BhcmVudCBhYm91dCBwcm9ibGVtcz8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiRm9jdXMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlJlc3BlY3QuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6Ik9wZW5uZXNzLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IkNvdXJhZ2UuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkNvbW1pdG1lbnQuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
     },
     {
       "id": 77,
@@ -523,16 +516,16 @@
     {
       "id": 78,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Team",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IkEgUHJvZHVjdCBPd25lciB3YW50cyBhZHZpY2UgZnJvbSB0aGUgU2NydW0gTWFzdGVyIGFib3V0IGVzdGltYXRpbmcgd29yayBpbiBTY3J1bS4gV2hpY2ggb2YgdGhlc2UgaXMgdGhlIGd1aWRlbGluZSB0aGF0IGEgU2NydW0gTWFzdGVyIHNob3VsZCBnaXZlPyIsIm9wdGlvbnMiOlt7InRleHQiOiJQcm9kdWN0IEJhY2tsb2cgaXRlbXMgbXVzdCBiZSBlc3RpbWF0ZWQgaW4gc3RvcnkgcG9pbnRzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJFc3RpbWF0ZXMgYXJlIG1hZGUgYnkgdGhlIFNjcnVtIFRlYW0uIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiRXN0aW1hdGVzIG11c3QgYmUgaW4gcmVsYXRpdmUgdW5pdHMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlNjcnVtIGZvcmJpZHMgZXN0aW1hdGluZy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiRXN0aW1hdGVzIGFyZSBtYWRlIGJ5IHRoZSBQcm9kdWN0IE93bmVyLCBidXQgYXJlIGJlc3QgY2hlY2tlZCB3aXRoIHRoZSBTY3J1bSBUZWFtLiIsImNvcnJlY3QiOmZhbHNlfV19"
+      "data": "eyJxdWVzdGlvbiI6IkEgUHJvZHVjdCBPd25lciB3YW50cyBhZHZpY2UgZnJvbSB0aGUgU2NydW0gTWFzdGVyIGFib3V0IGVzdGltYXRpbmcgd29yayBpbiBTY3J1bS4gV2hpY2ggb2YgdGhlc2UgaXMgdGhlIGd1aWRlbGluZSB0aGF0IGEgU2NydW0gTWFzdGVyIHNob3VsZCBnaXZlPyIsIm9wdGlvbnMiOlt7InRleHQiOiJQcm9kdWN0IEJhY2tsb2cgaXRlbXMgbXVzdCBiZSBlc3RpbWF0ZWQgaW4gc3RvcnkgcG9pbnRzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJFc3RpbWF0ZXMgYXJlIG1hZGUgYnkgdGhlIERldmVsb3BlcnMuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiRXN0aW1hdGVzIG11c3QgYmUgaW4gcmVsYXRpdmUgdW5pdHMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlNjcnVtIGZvcmJpZHMgZXN0aW1hdGluZy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiRXN0aW1hdGVzIGFyZSBtYWRlIGJ5IHRoZSBQcm9kdWN0IE93bmVyLCBidXQgYXJlIGJlc3QgY2hlY2tlZCB3aXRoIHRoZSBTY3J1bSBUZWFtLiIsImNvcnJlY3QiOmZhbHNlfV19"
     },
     {
       "id": 79,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Team",
       "multipleCorrect": true,
-      "data": "eyJxdWVzdGlvbiI6IldoYXQgaXMgYSBTY3J1bSBUZWFtIHJlc3BvbnNpYmxlIGZvcj8gKGNob29zZSB0d28pIiwib3B0aW9ucyI6W3sidGV4dCI6IlJlc29sdmluZyBpbnRlcm5hbCB0ZWFtIGNvbmZsaWN0cy4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJSZXBvcnRpbmcgcHJvZHVjdGl2aXR5LiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJTZWxlY3RpbmcgdGhlIFByb2R1Y3QgT3duZXIuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6Ik9yZ2FuaXppbmcgdGhlIHdvcmsgcmVxdWlyZWQgdG8gbWVldCB0aGUgU3ByaW50IEdvYWwuIiwiY29ycmVjdCI6dHJ1ZX1dfQ=="
+      "data": "eyJxdWVzdGlvbiI6IldoYXQgaXMgYSBTY3J1bSBUZWFtIHJlc3BvbnNpYmxlIGZvcj8gKGNob29zZSB0d28pIiwib3B0aW9ucyI6W3sidGV4dCI6Ik9yZ2FuaXppbmcgdGhlIHdvcmsgcmVxdWlyZWQgdG8gbWVldCB0aGUgU3ByaW50IEdvYWwuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiUmVwb3J0aW5nIHByb2R1Y3Rpdml0eS4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiU2VsZWN0aW5nIHRoZSBQcm9kdWN0IE93bmVyLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJDcmVhdGluZyBhIHZhbHVhYmxlLCB1c2VmdWwgSW5jcmVtZW50IGVhY2ggU3ByaW50LiIsImNvcnJlY3QiOnRydWV9XX0="
     },
     {
       "id": 80,
@@ -621,7 +614,7 @@
     {
       "id": 92,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Sprint Goal",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IlRoZSBDRU8gYXNrcyB0aGUgRGV2ZWxvcGVycyB0byBhZGQgYSBcInZlcnkgaW1wb3J0YW50XCIgaXRlbSB0byBhIFNwcmludCB0aGF0IGlzIGluIHByb2dyZXNzLiBXaGF0IHNob3VsZCB0aGUgRGV2ZWxvcGVycyBkbz8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiQWRkIHRoZSBpdGVtIHRvIHRoZSBjdXJyZW50IFNwcmludCBhbmQgZHJvcCBhbiBpdGVtIG9mIGVxdWFsIHNpemUuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkFkZCB0aGUgaXRlbSB0byB0aGUgY3VycmVudCBTcHJpbnQgd2l0aG91dCBhbnkgYWRqdXN0bWVudHMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkluZm9ybSB0aGUgUHJvZHVjdCBPd25lciBzbyBoZS9zaGUgY2FuIHdvcmsgd2l0aCB0aGUgQ0VPLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IkFkZCB0aGUgaXRlbSB0byB0aGUgbmV4dCBTcHJpbnQuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
     },
@@ -635,9 +628,9 @@
     {
       "id": 94,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Team",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IldoaWNoIHRlY2huaXF1ZSBpcyB0aGUgYmVzdCB3YXkgdGhlIFNjcnVtIE1hc3RlciBjYW4gZW5zdXJlIHRoYXQgdGhlIERldmVsb3BlcnMgY29tbXVuaWNhdGVzIGVmZmVjdGl2ZWx5IHdpdGggdGhlIFByb2R1Y3QgT3duZXI/Iiwib3B0aW9ucyI6W3sidGV4dCI6Ik1vbml0b3IgY29tbXVuaWNhdGlvbnMgYmV0d2VlbiB0aGVtIGFuZCBmYWNpbGl0YXRlIGRpcmVjdCBjb2xsYWJvcmF0aW9uLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IlRlYWNoIHRoZSBEZXZlbG9wZXJzIHRvIHRhbGsgaW4gdGVybXMgb2YgYnVzaW5lc3MgbmVlZHMgYW5kIG9iamVjdGl2ZXMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRlYWNoIHRoZSBQcm9kdWN0IE93bmVyIGFib3V0IHRoZSB0ZWNobm9sb2dpZXMgZW1wbG95ZWQgZHVyaW5nIHRoZSBTcHJpbnRzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJBY3QgYXMgYSBnby1iZXR3ZWVuIGZvciB0aGVtLiIsImNvcnJlY3QiOmZhbHNlfV19"
+      "data": "eyJxdWVzdGlvbiI6IkhvdyBjYW4gYSBTY3J1bSBNYXN0ZXIgYmVzdCBzdXBwb3J0IGVmZmVjdGl2ZSBjb21tdW5pY2F0aW9uIGJldHdlZW4gdGhlIERldmVsb3BlcnMgYW5kIHRoZSBQcm9kdWN0IE93bmVyPyIsIm9wdGlvbnMiOlt7InRleHQiOiJFbmNvdXJhZ2UgYW5kIGZhY2lsaXRhdGUgZGlyZWN0IGNvbGxhYm9yYXRpb24gYmV0d2VlbiB0aGUgRGV2ZWxvcGVycyBhbmQgdGhlIFByb2R1Y3QgT3duZXIuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiQ29hY2ggdGhlIERldmVsb3BlcnMgdG8gY29tbXVuaWNhdGUgb25seSBpbiB0ZXJtcyBvZiBidXNpbmVzcyBvYmplY3RpdmVzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJSZXF1aXJlIGFsbCBjb21tdW5pY2F0aW9uIHRvIGZsb3cgdGhyb3VnaCBmb3JtYWwgU3ByaW50IGV2ZW50cy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiQWN0IGFzIGFuIGludGVybWVkaWFyeSB0byBlbnN1cmUgbWVzc2FnZXMgYXJlIGNsZWFybHkgdHJhbnNsYXRlZC4iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
     },
     {
       "id": 95,
@@ -698,7 +691,7 @@
     {
       "id": 103,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Definition of Done",
       "multipleCorrect": true,
       "data": "eyJxdWVzdGlvbiI6IlRoZSBEZXZlbG9wZXJzIHNlbGVjdHMgYSBzZXQgb2YgUHJvZHVjdCBCYWNrbG9nIGl0ZW1zIGZvciBhIFNwcmludCBCYWNrbG9nIHdpdGggdGhlIGludGVudCB0byBnZXQgdGhlIHNlbGVjdGVkIGl0ZW1zIFwiRG9uZVwiIGJ5IHRoZSBlbmQgb2YgdGhlIFNwcmludC4gV2hpY2ggdGhyZWUgcGhyYXNlcyBiZXN0IGRlc2NyaWJlIHRoZSBwdXJwb3NlIG9mIGEgRGVmaW5pdGlvbiBvZiBEb25lPyAoY2hvb3NlIHRocmVlKSIsIm9wdGlvbnMiOlt7InRleHQiOiJJdCBjb250cm9scyB3aGV0aGVyIHRoZSBEZXZlbG9wZXJzIGhhdmUgcGVyZm9ybWVkIHRoZWlyIHRhc2tzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJJdCBwcm92aWRlcyBhIHRlbXBsYXRlIGZvciBlbGVtZW50cyB0aGF0IG5lZWQgdG8gYmUgaW5jbHVkZWQgaW4gdGhlIHRlY2huaWNhbCBkb2N1bWVudGF0aW9uLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJJdCBjcmVhdGVzIHRyYW5zcGFyZW5jeSBvdmVyIHRoZSB3b3JrIGluc3BlY3RlZCBhdCB0aGUgU3ByaW50IFJldmlldy4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJJdCB0cmFja3MgdGhlIHBlcmNlbnQgY29tcGxldGVuZXNzIG9mIGEgUHJvZHVjdCBCYWNrbG9nIGl0ZW0uIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6Ikl0IGd1aWRlcyB0aGUgRGV2ZWxvcGVycyBpcyBjcmVhdGluZyBhIGZvcmVjYXN0IGF0IHRoZSBTcHJpbnQgUGxhbm5pbmcuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiSXQgZGVmaW5lcyB3aGF0IGl0IHRha2VzIGZvciBhbiBJbmNyZW1lbnQgdG8gYmUgcmVhZHkgZm9yIHJlbGVhc2UuIiwiY29ycmVjdCI6dHJ1ZX1dfQ=="
     },
@@ -719,9 +712,9 @@
     {
       "id": 106,
       "difficulty": "medium",
-      "topic": "",
-      "multipleCorrect": true,
-      "data": "eyJxdWVzdGlvbiI6IldoaWNoIFNjcnVtIFZhbHVlcyBhcmUgZXhoaWJpdGVkIGJ5IG5vdCBidWlsZGluZyBQcm9kdWN0IEJhY2tsb2cgaXRlbXMgdGhhdCBoYXZlIGxvdyBidXNpbmVzcyB2YWx1ZT8gKGNob29zZSB0aHJlZSkiLCJvcHRpb25zIjpbeyJ0ZXh0IjoiRWNvbm9taWMgVmFsdWUgQWRkZWQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlJlc3BlY3QuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiRm9jdXMuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiRWFybmVkIFZhbHVlLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJDb3VyYWdlLiIsImNvcnJlY3QiOnRydWV9XX0="
+      "topic": "Scrum Values",
+      "multipleCorrect": false,
+      "data": "eyJxdWVzdGlvbiI6IkEgU2NydW0gVGVhbSBkZWNpZGVzIHRvIHdvcmsgb25seSBvbiBQcm9kdWN0IEJhY2tsb2cgaXRlbXMgdGhhdCBjb250cmlidXRlIGRpcmVjdGx5IHRvIHRoZSBQcm9kdWN0IEdvYWwsIGxlYXZpbmcgbG93ZXItdmFsdWUgaXRlbXMgdW5kb25lLiBXaGljaCBTY3J1bSBWYWx1ZSBkb2VzIHRoaXMgbW9zdCBzdHJvbmdseSBkZW1vbnN0cmF0ZT8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiRWNvbm9taWMgVmFsdWUuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlJlc3BlY3QuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkZvY3VzLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6Ik9wZW5uZXNzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJDb3VyYWdlLiIsImNvcnJlY3QiOmZhbHNlfV19"
     },
     {
       "id": 107,
@@ -740,9 +733,9 @@
     {
       "id": 109,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Team",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IldobyBzaG91bGQgbWFrZSBzdXJlIGV2ZXJ5b25lIG9uIHRoZSBEZXZlbG9wZXJzIGRvZXMgaGlzIG9yIGhlciB0YXNrcyBmb3IgdGhlIFNwcmludD8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiVGhlIFByb2plY3QgTWFuYWdlci4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVGhlIFByb2R1Y3QgT3duZXIuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRoZSBTY3J1bSBNYXN0ZXIuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRoZSBEZXZlbG9wZXJzLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IkFsbCBvZiB0aGUgYWJvdmUuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
+      "data": "eyJxdWVzdGlvbiI6IldobyBzaG91bGQgbWFrZSBzdXJlIGV2ZXJ5b25lIG9uIHRoZSBEZXZlbG9wZXJzIGRvZXMgaGlzIG9yIGhlciB0YXNrcyBmb3IgdGhlIFNwcmludD8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiVGhlIFByb2plY3QgTWFuYWdlci4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVGhlIFByb2R1Y3QgT3duZXIuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRoZSBTY3J1bSBNYXN0ZXIuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRoZSBEZXZlbG9wZXJzLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IkFsbCBvZiB0aGUgYWJvdmUuIiwiY29ycmVjdCI6ZmFsc2UsInBpblRvQm90dG9tIjp0cnVlfV19"
     },
     {
       "id": 110,
@@ -810,7 +803,7 @@
     {
       "id": 119,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Product Owner",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IlRoZSBEZXZlbG9wZXJzIGFza3MgdGhlaXIgUHJvZHVjdCBPd25lciB0byByZS1vcmRlciB0aGUgUHJvZHVjdCBCYWNrbG9nLiBUaGUgdGVhbSBpcyB3YWl0aW5nIGZvciBhbiBleHRlcm5hbCBzdXBwbGllciB0byBkZWxpdmVyIGEgc3BlY2lmaWMgc29mdHdhcmUgY29tcG9uZW50LiBXaXRob3V0IHRoYXQgY29tcG9uZW50IHRoZXJlIHdvbid0IGJlIGVub3VnaCB3b3JrIGluIHRoZSBuZXh0IFNwcmludCB0byBvY2N1cHkgdGhlIGZ1bGwgdGVhbS4gVGhlIFByb2R1Y3QgT3duZXIgYXNrcyB0aGUgU2NydW0gTWFzdGVyIGZvciBoZWxwLiBXaGF0IHdvdWxkIGJlIGdvb2QgYWR2aWNlIHRvIGdpdmUgdGhlIFByb2R1Y3QgT3duZXI/Iiwib3B0aW9ucyI6W3sidGV4dCI6IlJlbWluZCB0aGUgUHJvZHVjdCBPd25lciB0aGF0IGhpcyBwcmltYXJ5IGNvbmNlcm4gaXMgdGhlIGZsb3cgb2YgdmFsdWUgcmVmbGVjdGVkIGluIHRoZSBvcmRlcmluZyBvZiB0aGUgUHJvZHVjdCBCYWNrbG9nLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IlRlbGwgdGhlIFByb2R1Y3QgT3duZXIgdG8gcmUtb3JkZXIgdGhlIFByb2R1Y3QgQmFja2xvZyBzbyB0aGUgd29yayBpbnZvbHZpbmcgdGhlIGV4dGVybmFsIGNvbXBvbmVudCBjYW4gYmUgcGxhbm5lZCBpbiBhIHNlcGFyYXRlIHNwcmludC4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVGVsbCB0aGUgUHJvZHVjdCBPd25lciB0aGF0IHRoZSBQcm9kdWN0IEJhY2tsb2cgc2hvdWxkIGJlIG9yZGVyZWQgdG8gbWF4aW1pemUgdXRpbGl6YXRpb24gb2YgdGhlIERldmVsb3BlcnMuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
     },
@@ -901,7 +894,7 @@
     {
       "id": 132,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Master",
       "multipleCorrect": true,
       "data": "eyJxdWVzdGlvbiI6IkluIHRoZSBTcHJpbnQgUGxhbm5pbmcgbWVldGluZywgdGhlIFByb2R1Y3QgT3duZXIgYW5kIHRoZSBEZXZlbG9wZXJzIHdlcmUgdW5hYmxlIHRvIHJlYWNoIGEgY2xlYXIgdW5kZXJzdGFuZGluZyBhYm91dCB0aGUgaGlnaGVzdCBvcmRlciBQcm9kdWN0IEJhY2tsb2cgaXRlbXMuIEJlY2F1c2Ugb2YgdGhpcywgdGhlIERldmVsb3BlcnMgY291bGRuJ3QgZmlndXJlIG91dCBob3cgbWFueSBQcm9kdWN0IEJhY2tsb2cgaXRlbXMgaXQgY291bGQgZm9yZWNhc3QgZm9yIHRoZSB1cGNvbWluZyBTcHJpbnQuIFRoZXkgd2VyZSBhYmxlIHRvIGFncmVlIG9uIGEgU3ByaW50IEdvYWwsIGhvd2V2ZXIuIFdoaWNoIG9mIHRoZSBmb2xsb3dpbmcgdHdvIGFjdGlvbnMgc2hvdWxkIHRoZSBTY3J1bSBNYXN0ZXIgc3VwcG9ydD8gKGNob29zZSB0d28pIiwib3B0aW9ucyI6W3sidGV4dCI6IkNhbmNlbCB0aGUgU3ByaW50LiBTZW5kIHRoZSBlbnRpcmUgdGVhbSB0byBhbiBhZHZhbmNlZCBTY3J1bSB0cmFpbmluZyBhbmQgdGhlbiBzdGFydCBhIG5ldyBTcHJpbnQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkZvcmVjYXN0IHRoZSBtb3N0IGxpa2VseSBQcm9kdWN0IEJhY2tsb2cgaXRlbXMgdG8gbWVldCB0aGUgZ29hbCBhbmQgY3JlYXRlIGEgU3ByaW50IEJhY2tsb2cgYmFzZWQgb24gYSBsaWtlbHkgaW5pdGlhbCBkZXNpZ24gYW5kIHBsYW4uIE9uY2UgdGhlIHRpbWUtYm94IGZvciB0aGUgU3ByaW50IFBsYW5uaW5nIG1lZXRpbmcgaXMgb3Zlciwgc3RhcnQgdGhlIFNwcmludCBhbmQgY29udGludWUgdG8gYW5hbHl6ZSwgZGVjb21wb3NlLCBhbmQgY3JlYXRlIGFkZGl0aW9uYWwgZnVuY3Rpb25hbGl0eSBkdXJpbmcgdGhlIFNwcmludC4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJDb250aW51ZSB0aGUgU3ByaW50IFBsYW5uaW5nIG1lZXRpbmcgcGFzdCBpdHMgdGltZS1ib3ggdW50aWwgYW4gYWRlcXVhdGUgbnVtYmVyIG9mIFByb2R1Y3QgQmFja2xvZyBpdGVtcyBhcmUgd2VsbCBlbm91Z2ggdW5kZXJzdG9vZCBmb3IgdGhlIERldmVsb3BlcnMgdG8gbWFrZSBhIGNvbXBsZXRlIGZvcmVjYXN0LiBUaGVuIHN0YXJ0IHRoZSBTcHJpbnQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkRpc2N1c3MgaW4gdGhlIHVwY29taW5nIFNwcmludCBSZXRyb3NwZWN0aXZlIHdoeSB0aGlzIGhhcHBlbmVkIGFuZCB3aGF0IGNoYW5nZXMgd2lsbCBtYWtlIGl0IGxlc3MgbGlrZWx5IHRvIHJlY3VyLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IkFzayBldmVyeW9uZSB0byB0YWtlIGFzIG11Y2ggdGltZSBhcyBuZWVkZWQgdG8gYW5hbHl6ZSB0aGUgUHJvZHVjdCBCYWNrbG9nIGZpcnN0LCBhbmQgdGhlbiByZWNvbnZlbmUgYW5vdGhlciBTcHJpbnQgUGxhbm5pbmcgbWVldGluZy4iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
     },
@@ -917,7 +910,7 @@
       "difficulty": "easy",
       "topic": "Scrum Events",
       "multipleCorrect": true,
-      "data": "eyJxdWVzdGlvbiI6IldoaWNoIG9mIHRoZSBmb2xsb3dpbmcgaXMgcmVxdWlyZWQgYnkgU2NydW0/IChjaG9vc2UgYWxsIHRoYXQgYXBwbHkpIiwib3B0aW9ucyI6W3sidGV4dCI6IlNwcmludCBSZXRyb3NwZWN0aXZlLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6Ik1lbWJlcnMgbXVzdCBiZSBzdGFuZCB1cCBhdCB0aGUgRGFpbHkgU2NydW0uIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlNwcmludCBCdXJuZG93biBDaGFydC4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiUmVsZWFzZSBwbGFubmluZy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiQWxsIG9mIHRoZSBhYm92ZS4iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
+      "data": "eyJxdWVzdGlvbiI6IldoaWNoIG9mIHRoZSBmb2xsb3dpbmcgaXMgcmVxdWlyZWQgYnkgU2NydW0/IChjaG9vc2UgYWxsIHRoYXQgYXBwbHkpIiwib3B0aW9ucyI6W3sidGV4dCI6IlNwcmludCBSZXRyb3NwZWN0aXZlLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6Ik1lbWJlcnMgbXVzdCBiZSBzdGFuZCB1cCBhdCB0aGUgRGFpbHkgU2NydW0uIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlNwcmludCBCdXJuZG93biBDaGFydC4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiUmVsZWFzZSBwbGFubmluZy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiQWxsIG9mIHRoZSBhYm92ZS4iLCJjb3JyZWN0IjpmYWxzZSwicGluVG9Cb3R0b20iOnRydWV9XX0="
     },
     {
       "id": 135,
@@ -948,18 +941,11 @@
       "data": "eyJxdWVzdGlvbiI6IlRydWUgb3IgRmFsc2U6IFNjcnVtIGhhcyBhIHJvbGUgY2FsbGVkIFwiUHJvamVjdCBNYW5hZ2VyXCIuIiwib3B0aW9ucyI6W3sidGV4dCI6IlRydWUuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkZhbHNlLiIsImNvcnJlY3QiOnRydWV9XX0="
     },
     {
-      "id": 139,
-      "difficulty": "medium",
-      "topic": "",
-      "multipleCorrect": true,
-      "data": "eyJxdWVzdGlvbiI6IldoaWNoIFNjcnVtIFZhbHVlcyBhcmUgdmlvbGF0ZWQgYnkgYnVpbGRpbmcgUHJvZHVjdCBCYWNrbG9nIGl0ZW1zIHRoYXQgaGF2ZSBsb3cgYnVzaW5lc3MgdmFsdWU/Iiwib3B0aW9ucyI6W3sidGV4dCI6IkNvdXJhZ2UuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiRm9jdXMuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiUmVzcGVjdC4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJFY29ub21pYyBWYWx1ZSBBZGRlZC4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiRWFybmVkIFZhbHVlLiIsImNvcnJlY3QiOmZhbHNlfV19"
-    },
-    {
       "id": 140,
-      "difficulty": "medium",
-      "topic": "",
+      "difficulty": "easy",
+      "topic": "The Sprint",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IkhvdyBtdWNoIHRpbWUgaXMgcmVxdWlyZWQgYWZ0ZXIgYSBTcHJpbnQgdG8gcHJlcGFyZSBmb3IgdGhlIG5leHQgU3ByaW50PyIsIm9wdGlvbnMiOlt7InRleHQiOiJUaGUgYnJlYWsgYmV0d2VlbiBTcHJpbnRzIGlzIHRpbWUtYm94ZWQgdG8gMSB3ZWVrIGZvciAzMCBkYXkgU3ByaW50cywgYW5kIHVzdWFsbHkgbGVzcyBmb3Igc2hvcnRlciBzcHJpbnRzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJFbm91Z2ggdGltZSBmb3IgdGhlIHJlcXVpcmVtZW50cyBmb3IgdGhlIG5leHQgU3ByaW50IHRvIGJlIGRldGVybWluZWQgYW5kIGRvY3VtZW50ZWQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkVub3VnaCB0aW1lIGZvciB0aGUgRGV2ZWxvcGVycyB0byBmaW5pc2ggdGhlIHRlc3RpbmcgZnJvbSB0aGUgbGFzdCBTcHJpbnQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6Ik5vbmUuIEEgbmV3IFNwcmludCBzdGFydHMgaW1tZWRpYXRlbHkgZm9sbG93aW5nIHRoZSBlbmQgb2YgdGhlIHByZXZpb3VzIFNwcmludC4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJBbGwgb2YgdGhlIGFib3ZlIGFyZSBhbGxvd2VkIGRlcGVuZGluZyBvbiB0aGUgc2l0dWF0aW9uLiIsImNvcnJlY3QiOmZhbHNlfV19"
+      "data": "eyJxdWVzdGlvbiI6IkhvdyBtdWNoIHRpbWUgaXMgcmVxdWlyZWQgYWZ0ZXIgYSBTcHJpbnQgdG8gcHJlcGFyZSBmb3IgdGhlIG5leHQgU3ByaW50PyIsIm9wdGlvbnMiOlt7InRleHQiOiJUaGUgYnJlYWsgYmV0d2VlbiBTcHJpbnRzIGlzIHRpbWUtYm94ZWQgdG8gMSB3ZWVrIGZvciAzMCBkYXkgU3ByaW50cywgYW5kIHVzdWFsbHkgbGVzcyBmb3Igc2hvcnRlciBzcHJpbnRzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJFbm91Z2ggdGltZSBmb3IgdGhlIHJlcXVpcmVtZW50cyBmb3IgdGhlIG5leHQgU3ByaW50IHRvIGJlIGRldGVybWluZWQgYW5kIGRvY3VtZW50ZWQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkVub3VnaCB0aW1lIGZvciB0aGUgRGV2ZWxvcGVycyB0byBmaW5pc2ggdGhlIHRlc3RpbmcgZnJvbSB0aGUgbGFzdCBTcHJpbnQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6Ik5vbmUuIEEgbmV3IFNwcmludCBzdGFydHMgaW1tZWRpYXRlbHkgZm9sbG93aW5nIHRoZSBlbmQgb2YgdGhlIHByZXZpb3VzIFNwcmludC4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJBbGwgb2YgdGhlIGFib3ZlIGFyZSBhbGxvd2VkIGRlcGVuZGluZyBvbiB0aGUgc2l0dWF0aW9uLiIsImNvcnJlY3QiOmZhbHNlLCJwaW5Ub0JvdHRvbSI6dHJ1ZX1dfQ=="
     },
     {
       "id": 141,
@@ -970,10 +956,10 @@
     },
     {
       "id": 142,
-      "difficulty": "medium",
-      "topic": "",
+      "difficulty": "easy",
+      "topic": "The Sprint",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IldoZW4gY2FuIHRoZSBEZXZlbG9wZXJzIGNhbmNlbCBhIFNwcmludD8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiSXQgY2FuJ3QuIE9ubHkgUHJvZHVjdCBPd25lcnMgY2FuIGNhbmNlbCBTcHJpbnRzLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IldoZW4gZnVuY3Rpb25hbCBleHBlY3RhdGlvbnMgYXJlIG5vdCB3ZWxsIHVuZGVyc3Rvb2QuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IldoZW4gdGhlIFByb2R1Y3QgT3duZXIgaXMgYWJzZW50IHRvbyBvZnRlbi4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiV2hlbiB0aGUgc2VsZWN0ZWQgUHJvZHVjdCBCYWNrbG9nIGl0ZW1zIGZvciB0aGUgU3ByaW50IGJlY29tZSB1bmFjaGlldmFibGUuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IldoZW4gYSB0ZWNobmljYWwgZGVwZW5kZW5jeSBjYW5ub3QgYmUgcmVzb2x2ZWQuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
+      "data": "eyJxdWVzdGlvbiI6IldoZW4gY2FuIHRoZSBEZXZlbG9wZXJzIGNhbmNlbCBhIFNwcmludD8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiVGhleSBjYW4ndC4gT25seSBQcm9kdWN0IE93bmVycyBjYW4gY2FuY2VsIFNwcmludHMuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiV2hlbiBmdW5jdGlvbmFsIGV4cGVjdGF0aW9ucyBhcmUgbm90IHdlbGwgdW5kZXJzdG9vZC4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiV2hlbiB0aGUgUHJvZHVjdCBPd25lciBpcyBhYnNlbnQgdG9vIG9mdGVuLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJXaGVuIHRoZSBzZWxlY3RlZCBQcm9kdWN0IEJhY2tsb2cgaXRlbXMgZm9yIHRoZSBTcHJpbnQgYmVjb21lIHVuYWNoaWV2YWJsZS4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiV2hlbiBhIHRlY2huaWNhbCBkZXBlbmRlbmN5IGNhbm5vdCBiZSByZXNvbHZlZC4iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
     },
     {
       "id": 143,
@@ -991,10 +977,10 @@
     },
     {
       "id": 145,
-      "difficulty": "medium",
-      "topic": "",
-      "multipleCorrect": true,
-      "data": "eyJxdWVzdGlvbiI6IldoYXQgdGVjaG5pcXVlcyBjb3VsZCB0aGUgU2NydW0gTWFzdGVyIHVzZSB3aGVuIHRoZSBTY3J1bSBUZWFtIGdldHMgY2F1Z2h0IGluIGFuIGludGVybmFsIGRpc2FncmVlbWVudCBhYm91dCB3aGljaCBhZ2lsZSBwcmFjdGljZXMgdG8gYXBwbHk/IChjaG9vc2UgdGhlIGJlc3QgdHdvIGFuc3dlcnMpIiwib3B0aW9ucyI6W3sidGV4dCI6Ikludm9sdmUgdGhlIGNvbXBsZXRlIFNjcnVtIFRlYW0gaW4gbWFraW5nIGEgZGVjaXNpb24uIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiVXNlIGNvYWNoaW5nIHRlY2huaXF1ZXM7IHN1Y2ggYXMgb3BlbiBxdWVzdGlvbnMgYW5kIGFjdGl2ZSBsaXN0ZW5pbmcuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiQXNrIGFuIGV4dGVybmFsIGFnaWxlIGNvYWNoIHdoYXQgdGhleSByZWNvbW1lbmQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkFzayB0ZWFtIG1lbWJlcnMgdG8gdGFrZSB0aGUgaXNzdWUgdXAgd2l0aCB0byB0aGUgY29tcGFueSdzIEh1bWFuIFJlc291cmNlcyBkZXBhcnRtZW50LiIsImNvcnJlY3QiOmZhbHNlfV19"
+      "difficulty": "easy",
+      "topic": "Scrum Master",
+      "multipleCorrect": false,
+      "data": "eyJxdWVzdGlvbiI6IldoZW4gdGhlIFNjcnVtIFRlYW0gZGlzYWdyZWVzIG9uIHdoaWNoIHByYWN0aWNlcyB0byBhcHBseSwgaG93IHNob3VsZCB0aGUgU2NydW0gTWFzdGVyIGhlbHA/Iiwib3B0aW9ucyI6W3sidGV4dCI6IkRlY2lkZSB3aGljaCBwcmFjdGljZXMgYmVzdCBhbGlnbiB3aXRoIFNjcnVtIGFuZCBlbmZvcmNlIHRoZW0uIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlN1cHBvcnQgdGhlIFNjcnVtIFRlYW0gaW4gbWFraW5nIHRoZWlyIG93biBkZWNpc2lvbi4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJCcmluZyBpbiBhbiBleHRlcm5hbCBhZ2lsZSBjb2FjaCB0byBtYWtlIHRoZSBmaW5hbCBkZWNpc2lvbi4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiRXNjYWxhdGUgdGhlIGRpc2FncmVlbWVudCB0byBtYW5hZ2VtZW50IG9yIEhSLiIsImNvcnJlY3QiOmZhbHNlfV19"
     },
     {
       "id": 146,
@@ -1076,7 +1062,7 @@
     {
       "id": 157,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Developers",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IldoZW4gZG9lcyBhIERldmVsb3BlciBiZWNvbWUgYWNjb3VudGFibGUgZm9yIHRoZSB2YWx1ZSBvZiBhIFByb2R1Y3QgQmFja2xvZyBpdGVtIHNlbGVjdGVkIGZvciB0aGUgU3ByaW50PyIsIm9wdGlvbnMiOlt7InRleHQiOiJEdXJpbmcgdGhlIERhaWx5IFNjcnVtIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IldoZW5ldmVyIGEgdGVhbSBtZW1iZXIgY2FuIGFjY29tbW9kYXRlIG1vcmUgd29yay4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiTmV2ZXIuIFRoZSBlbnRpcmUgU2NydW0gVGVhbSBpcyBhY2NvdW50YWJsZSBmb3IgY3JlYXRpbmcgdmFsdWUgZXZlcnkgU3ByaW50LiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IkF0IHRoZSBTcHJpbnQgUGxhbm5pbmcgRXZlbnQuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
     },
@@ -1090,7 +1076,7 @@
     {
       "id": 159,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Product Backlog",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IldoaWNoIGJlc3QgZGVzY3JpYmVzIHRoZSBQcm9kdWN0IEJhY2tsb2c/Iiwib3B0aW9ucyI6W3sidGV4dCI6Ikl0IGlzIGFsbG93ZWQgdG8gZ3JvdyBhbmQgY2hhbmdlIGFzIG1vcmUgaXMgbGVhcm5lZCBhYm91dCB0aGUgcHJvZHVjdCBhbmQgaXRzIGN1c3RvbWVycy4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJJdCBwcm92aWRlcyBqdXN0IGVub3VnaCBpbmZvcm1hdGlvbiB0byBlbmFibGUgYSBTY3J1bSB0ZWFtIHRvIHN0YXJ0IHRoZSBkZXNpZ24gcGhhc2Ugb2YgYSBwcm9kdWN0LiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJJdCBjb250YWlucyBhbGwgZm9yZXNlZWFibGUgdGFza3MgYW5kIHJlcXVpcmVtZW50cyBmcm9tIHdoaWNoIHRoZSBTY3J1bSB0ZWFtIGNhbiBkZXZlbG9wIGFuZCBtYWludGFpbiBhIGNvbXBsZXRlIHByb2plY3QgcGxhbi4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiSXQgaXMgYmFzZWxpbmVkIHRvIGZvbGxvdyBjaGFuZ2UgbWFuYWdlbWVudCBwcm9jZXNzZXMuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
     },
@@ -1144,13 +1130,6 @@
       "data": "eyJxdWVzdGlvbiI6IldoYXQgYXJlIHR3byBnb29kIHdheXMgZm9yIGEgU2NydW0gVGVhbSB0byBlbnN1cmUgc2VjdXJpdHkgY29uY2VybnMgYXJlIHNhdGlzZmllZD8gKGNob29zZSB0d28pIiwib3B0aW9ucyI6W3sidGV4dCI6IlBvc3Rwb25lIHRoZSB3b3JrIHVudGlsIGEgc3BlY2lhbGlzdCBjYW4gcGVyZm9ybSBhIHNlY3VyaXR5IGF1ZGl0IGFuZCBjcmVhdGUgYSBsaXN0IG9mIHNlY3VyaXR5LXJlbGF0ZWQgUHJvZHVjdCBCYWNrbG9nIGl0ZW1zLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJBZGQgc2VjdXJpdHkgY29uY2VybnMgdG8gdGhlIERlZmluaXRpb24gb2YgRG9uZS4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJBZGQgYSBTcHJpbnQgdG8gc3BlY2lmaWNhbGx5IHJlc29sdmUgYWxsIHNlY3VyaXR5IGNvbmNlcm5zLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJEZWxlZ2F0ZSB0aGUgd29yayB0byB0aGUgY29uY2VybmVkIGRlcGFydG1lbnQuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkhhdmUgdGhlIFNjcnVtIFRlYW0gY3JlYXRlIFByb2R1Y3QgQmFja2xvZyBpdGVtcyBmb3IgZWFjaCBjb25jZXJuLiIsImNvcnJlY3QiOnRydWV9XX0="
     },
     {
-      "id": 167,
-      "difficulty": "medium",
-      "topic": "",
-      "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHJlY29tbWVuZGVkIHNpemUgZm9yIGEgU2NydW0gVGVhbT8gKGNob29zZSB0aGUgYmVzdCBhbnN3ZXIpIiwib3B0aW9ucyI6W3sidGV4dCI6IkF0IGxlYXN0IDcuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IjkuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IjEwIG9yIGZld2VyLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IjcgcGx1cyBvciBtaW51cyAzLiIsImNvcnJlY3QiOmZhbHNlfV19"
-    },
-    {
       "id": 168,
       "difficulty": "medium",
       "topic": "",
@@ -1167,7 +1146,7 @@
     {
       "id": 170,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Increment",
       "multipleCorrect": true,
       "data": "eyJxdWVzdGlvbiI6IlRoZSBEZXZlbG9wZXJzIGFyZSByZXF1aXJlZCB0byBkZWxpdmVyIGEgZG9uZSBJbmNyZW1lbnQgYnkgdGhlIGVuZCBvZiBhIFNwcmludC4gU2VsZWN0IHR3byBzdGF0ZW1lbnRzIHRoYXQgZXhwbGFpbiB3aGF0IFwiRG9uZVwiIG1lYW5zLiAoY2hvb3NlIHR3bykiLCJvcHRpb25zIjpbeyJ0ZXh0IjoiQWxsIHdvcmsgdGhlIERldmVsb3BlcnMgYXJlIHdpbGxpbmcgdG8gZG8uIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlJlYWR5IGZvciBpbnRlZ3JhdGlvbi4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiTm8gd29yayBsZWZ0IGZyb20gdGhlIERlZmluaXRpb24gb2YgRG9uZS4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJXaGF0ZXZlciB0aGUgUHJvZHVjdCBPd25lciBkZWZpbmVzIGFzIHF1YWxpdHkuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkFsbCB3b3JrIHRvIGNyZWF0ZSBzb2Z0d2FyZSB0aGF0IGlzIHJlYWR5IHRvIGJlIHJlbGVhc2VkIHRvIGVuZCB1c2Vycy4iLCJjb3JyZWN0Ijp0cnVlfV19"
     },
@@ -1216,7 +1195,7 @@
     {
       "id": 177,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Team",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IldobyBpcyBhY2NvdW50YWJsZSBmb3IgZW5zdXJpbmcgdGhhdCB0aGUgYnVybi1kb3duIGNoYXJ0IGFuZCBnYW50dCBjaGFydCBleGlzdD8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiTm8gb25lLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IlRoZSBEZXZlbG9wZXJzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGUgUHJvZHVjdCBPd25lci4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVGhlIFNjcnVtIE1hc3Rlci4iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
     },
@@ -1244,9 +1223,9 @@
     {
       "id": 181,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Daily Scrum",
       "multipleCorrect": true,
-      "data": "eyJxdWVzdGlvbiI6Ik1hbmFnZW1lbnQgbmVlZCB0byBtb25pdG9yIHByb2dyZXNzIG9uIGEgZGFpbHkgYmFzaXMgYW5kIGRlY2lkZSB0byBkbyBzbyBieSBhdHRlbmRpbmcgdGhlIERhaWx5IFNjcnVtLiBXaGF0IGFyZSB0aGUgbGlrZWx5IHJlc3VsdHM/IChjaG9vc2UgdGhyZWUpIiwib3B0aW9ucyI6W3sidGV4dCI6Ik1hbmFnZW1lbnQgd2lsbCBiZSBhYmxlIHRvIGJldHRlciBkaXJlY3QgdGhlIHdvcmsgb2YgdGhlIERldmVsb3BlcnMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkFkZGl0aW9uYWwgZmFjaWxpdGF0aW9uIG1heSBiZSByZXF1aXJlZCB0byBrZWVwIHRvIHRoZSB0aW1lLWJveC4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJEZXZlbG9wZXJzIG1heSBlbmQgdXAgd2l0aCBsZXNzIHRpbWUgaW4gdGhlIERhaWx5IFNjcnVtIHRvIHJlLXBsYW4gdGhlaXIgd29yay4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJEZXZlbG9wZXJzIG1heSBiZSBsZXNzIG9wZW4gYW5kIHRyYW5zcGFyZW50IGR1cmluZyB0aGUgRGFpbHkgU2NydW0uIiwiY29ycmVjdCI6dHJ1ZX1dfQ=="
+      "data": "eyJxdWVzdGlvbiI6IldoYXQgYXJlIGxpa2VseSBuZWdhdGl2ZSBvdXRjb21lcyB3aGVuIG1hbmFnZXJzIGF0dGVuZCB0aGUgRGFpbHkgU2NydW0gdG8gbW9uaXRvciBwcm9ncmVzcz8gKGNob29zZSB0d28pIiwib3B0aW9ucyI6W3sidGV4dCI6IlRoZSBQcm9kdWN0IE93bmVyIHdpbGwgbG9zZSBhY2NvdW50YWJpbGl0eSBmb3Igb3JkZXJpbmcgdGhlIFByb2R1Y3QgQmFja2xvZy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVGhlIFNjcnVtIE1hc3RlciB3aWxsIG5lZWQgdG8gZXh0ZW5kIHRoZSBEYWlseSBTY3J1bSBiZXlvbmQgaXRzIHRpbWUtYm94LiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGUgRGFpbHkgU2NydW0gbWF5IHNoaWZ0IHRvd2FyZCByZXBvcnRpbmcgc3RhdHVzIGluc3RlYWQgb2YgcGxhbm5pbmcgd29yayB0b3dhcmQgdGhlIFNwcmludCBHb2FsLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IkRldmVsb3BlcnMgbWF5IGJlIGxlc3Mgb3BlbiBhbmQgdHJhbnNwYXJlbnQgZHVyaW5nIHRoZSBEYWlseSBTY3J1bS4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJEZXZlbG9wZXJzIHdpbGwgbm8gbG9uZ2VyIGJlIHJlc3BvbnNpYmxlIGZvciBhZGFwdGluZyB0aGVpciBwbGFuIGZvciB0aGUgU3ByaW50LiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJNYW5hZ2VtZW50IHdpbGwgYmVjb21lIGFjY291bnRhYmxlIGZvciB0aGUgU3ByaW50IEdvYWwuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
     },
     {
       "id": 182,
@@ -1279,9 +1258,9 @@
     {
       "id": 186,
       "difficulty": "medium",
-      "topic": "",
-      "multipleCorrect": true,
-      "data": "eyJxdWVzdGlvbiI6IkFtb25nIHRoZSBEZXZlbG9wZXJzLCB0aGVyZSBpcyBub2JvZHkgd2l0aCBzaWduaWZpY2FudCB0ZXN0aW5nIGV4cGVydGlzZS4gVGhleSBzaG91bGQuLi4iLCJvcHRpb25zIjpbeyJ0ZXh0IjoicmVxdWVzdCBmb3IgYSBzcGVjaWFsaXN0IHRlc3RlciB0byBqb2luIHRoZW0gYW5kIHF1ZXVlIHRlc3RpbmcgZm9yIHRoZW0gdG8gZG8gd2hlbiB0aGV5IGFycml2ZSBpbiBhIGxhdGVyIFNwcmludC4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoicHJvZHVjZSBhbiBJbmNyZW1lbnQgdGhhdCB3aWxsIGJlIHRlc3RlZCBieSBhIGRlZGljYXRlZCB0ZXN0IHRlYW0gYWZ0ZXIgdGhlIFNwcmludCB0byBndWFyYW50ZWUgdGhlIHF1YWxpdHkuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6InJhaXNlIHRoaXMgYXMgYW4gaW1wZWRpbWVudCB3aGljaCBtYXkgcmVxdWlyZSB0aGUgYXNzaXN0YW5jZSBvZiB0aGUgU2NydW0gTWFzdGVyIHRvIHJlc29sdmUuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoicXVhbGl0eSBpcyB0aGUgcmVzcG9uc2liaWxpdHkgb2YgdGhlIERldmVsb3BlcnMgYW5kIHRoZXkgc2hvdWxkIHVuZGVydGFrZSB0ZXN0aW5nIHRoZW1zZWx2ZXMgdG8gdGhlIGJlc3Qgb2YgdGhlaXIgYWJpbGl0aWVzLiIsImNvcnJlY3QiOnRydWV9XX0="
+      "topic": "Scrum Team",
+      "multipleCorrect": false,
+      "data": "eyJxdWVzdGlvbiI6IlRoZSBEZXZlbG9wZXJzIG9uIGEgU2NydW0gVGVhbSBsYWNrIHNwZWNpYWxpemVkIHRlc3RpbmcgZXhwZXJ0aXNlLiBXaGF0IGlzIHRoZSBiZXN0IHdheSB0byBlbnN1cmUgcHJvZHVjdCBxdWFsaXR5PyIsIm9wdGlvbnMiOlt7InRleHQiOiJSZXF1ZXN0IGEgc3BlY2lhbGlzdCB0ZXN0ZXIgdG8gam9pbiBmb3IgbGF0ZXIgU3ByaW50cyBhbmQgcGVyZm9ybSB0aGUgdGVzdGluZy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiUHJvZHVjZSBhbiBJbmNyZW1lbnQgdGhhdCB3aWxsIGJlIHRlc3RlZCBieSBhIGRlZGljYXRlZCB0ZXN0IHRlYW0gYWZ0ZXIgdGhlIFNwcmludCB0byBndWFyYW50ZWUgdGhlIHF1YWxpdHkuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkltbWVkaWF0ZWx5IHJhaXNlIHRoaXMgYXMgYW4gaW1wZWRpbWVudCBmb3IgdGhlIFNjcnVtIE1hc3RlciB0byByZXNvbHZlLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJRdWFsaXR5IGlzIHRoZSByZXNwb25zaWJpbGl0eSBvZiB0aGUgRGV2ZWxvcGVycywgYW5kIHRoZXkgc2hvdWxkIHBlcmZvcm0gdGVzdGluZyB0aGVtc2VsdmVzIHRvIHRoZSBiZXN0IG9mIHRoZWlyIGFiaWxpdGllcy4iLCJjb3JyZWN0Ijp0cnVlfV19"
     },
     {
       "id": 187,
@@ -1306,8 +1285,8 @@
     },
     {
       "id": 190,
-      "difficulty": "medium",
-      "topic": "",
+      "difficulty": "easy",
+      "topic": "Scrum Team",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IldoaWNoIHN0YXRlbWVudCBiZXN0IGRlc2NyaWJlcyBhIGNyb3NzLWZ1bmN0aW9uYWwgdGVhbT8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiVGhlIHRlYW0gaGFzIGFsbCBjb21wZXRlbmNpZXMgbmVlZGVkIHRvIGFjY29tcGxpc2ggdGhlIHdvcmsuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiVGhlIHRlYW0gaGFzIGEgZ29vZCBtaXggb2Ygc2tpbGxzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJBbGwgbWVtYmVycyBvZiB0aGUgdGVhbSBoYXZlIGFsbCB0aGUgc2tpbGxzIHJlcXVpcmVkIHRvIGNyZWF0ZSB0aGUgUHJvZHVjdC4iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
     },
@@ -1321,7 +1300,7 @@
     {
       "id": 192,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Team",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IlRoZSBQcm9kdWN0IE93bmVyIGlzIHVzaW5nIGJ1cm4tdXAgY2hhcnRzIGluc3RlYWQgb2YgYnVybi1kb3duIGNoYXJ0cy4gV2hhdCB3b3VsZCB5b3VyIHJlc3BvbnNlIGJlIGFzIFNjcnVtIE1hc3Rlcj8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiVGhlcmUncyBub3RoaW5nIHdyb25nIHdpdGggaXQuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiQnVybi11cCBjaGFydHMgYXJlIHVzZWQgaW4gdHJhZGl0aW9uYWwgbWV0aG9kcyBhbmQgc2hvdWxkIGJlIHJlcGxhY2VkIGJ5IGJ1cm4tZG93biBjaGFydHMuIiwiY29ycmVjdCI6ZmFsc2V9XX0="
     },
@@ -1370,9 +1349,9 @@
     {
       "id": 199,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Daily Scrum",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IlRoZSBEYWlseSBTY3J1bSBpcyBjb25zaXN0ZW50bHkgdGFraW5nIGxvbmdlciB0aGFuIDE1IG1pbnV0ZXMuIFdoaWNoIHN0YXRlbWVudCBiZXN0IGRlc2NyaWJlcyB3aGF0IHNob3VsZCBiZSBkb25lPyIsIm9wdGlvbnMiOlt7InRleHQiOiJBIDJuZCBEYWlseSBTY3J1bSBzaG91bGQgYmUgaGVsZCBhdCB0aGUgZW5kIG9mIHRoZSBkYXkuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRoZSBTY3J1bSBNYXN0ZXIgc2hvdWxkIGhlbHAgdGhlIERldmVsb3BlcnMgdW5kZXJzdGFuZCB3aHkgdGhlIDE1IG1pbnV0ZSB0aW1lLWJveCBzaG91bGQgYmUgcmVzcGVjdGVkIGFuZCBoZWxwIHRoZW0gZmluZCB3YXlzIHRvIGRvIGl0IGFzIHJlcXVpcmVkLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IkRldmVsb3BlcnMgc2hvdWxkIGxlYXZlIGF0IHRoZSBlbmQgb2YgdGhlIDE1IG1pbnV0ZXMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRoZSBEZXZlbG9wZXJzIHNob3VsZCB0YWtlIHRoZSBhZGRpdGlvbmFsIHRpbWUgdGhhdCB0aGV5IG5lZWQgaW4gdGhlIERhaWx5IFNjcnVtLiIsImNvcnJlY3QiOmZhbHNlfV19"
+      "data": "eyJxdWVzdGlvbiI6IlRoZSBEYWlseSBTY3J1bSBpcyBjb25zaXN0ZW50bHkgdGFraW5nIGxvbmdlciB0aGFuIDE1IG1pbnV0ZXMuIFdoaWNoIHN0YXRlbWVudCBiZXN0IGRlc2NyaWJlcyB3aGF0IHNob3VsZCBiZSBkb25lPyIsIm9wdGlvbnMiOlt7InRleHQiOiJBIHNlY29uZCBEYWlseSBTY3J1bSBzaG91bGQgYmUgaGVsZCBhdCB0aGUgZW5kIG9mIHRoZSBkYXkuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRoZSBTY3J1bSBNYXN0ZXIgc2hvdWxkIGhlbHAgdGhlIERldmVsb3BlcnMgdW5kZXJzdGFuZCB3aHkgdGhlIDE1IG1pbnV0ZSB0aW1lLWJveCBzaG91bGQgYmUgcmVzcGVjdGVkIGFuZCBoZWxwIHRoZW0gZmluZCB3YXlzIHRvIGRvIGl0IGFzIHJlcXVpcmVkLiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IkRldmVsb3BlcnMgc2hvdWxkIGxlYXZlIGF0IHRoZSBlbmQgb2YgdGhlIDE1IG1pbnV0ZXMgdG8gdGFrZSBjYXJlIG9mIHRoZWlyIHdvcmsuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlRoZSBEZXZlbG9wZXJzIHNob3VsZCB0YWtlIHRoZSBhZGRpdGlvbmFsIHRpbWUgdGhhdCB0aGV5IG5lZWQgaW4gdGhlIERhaWx5IFNjcnVtLiIsImNvcnJlY3QiOmZhbHNlfV19"
     },
     {
       "id": 200,
@@ -1439,8 +1418,8 @@
     },
     {
       "id": 209,
-      "difficulty": "medium",
-      "topic": "",
+      "difficulty": "easy",
+      "topic": "Sprint Review",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IlRoZSBwdXJwb3NlIG9mIHRoZSBTcHJpbnQgUmV2aWV3IGlzLi4uIiwib3B0aW9ucyI6W3sidGV4dCI6InRvIHNob3cgU3Rha2Vob2xkZXJzIHdvcmsgdGhhdCBpcyBkb25lIGFuZCB3b3JrIHRoYXQgaXMgbmVhciB0byBjb21wbGV0aW9uLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJ0byBpbnNwZWN0IHRoZSBvdXRjb21lIG9mIHRoZSBTcHJpbnQgYW5kIGRldGVybWluZSBmdXR1cmUgYWRhcHRhdGlvbnMuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoidG8gcmV2aWV3IHRoZSBzdGF0dXMgb2YgdGhlIFByb2plY3QuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6InRvIGNoZWNrIHdoYXQgd2FzIGRvbmUgYW5kIG5vdCBkb25lIGR1cmluZyB0aGUgU3ByaW50LiIsImNvcnJlY3QiOmZhbHNlfV19"
     },
@@ -1475,16 +1454,9 @@
     {
       "id": 214,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Team",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IkEgbmV3IERldmVsb3BlciBqb2lucyB0aGUgU2NydW0gVGVhbSB0YWtpbmcgdGhlIHRvdGFsIG51bWJlciB0byAxMSBwZW9wbGUuIEFzIGEgU2NydW0gTWFzdGVyLCBXaGF0IHNob3VsZCB5b3UgZG8/Iiwib3B0aW9ucyI6W3sidGV4dCI6Ikluc3RydWN0IHRoZSBEZXZlbG9wZXJzIHRvIHNwbGl0IGludG8gMiB0ZWFtcy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiRG8gbm90aGluZywgdGhlIERldmVsb3BlcnMgbXVzdCBmaXggaXRzIG93biBpc3N1ZXMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6Ikluc3RydWN0IHRoZSBEZXZlbG9wZXJzIHRvIHNwbGl0IGludG8gMiB0ZWFtcywgdGhleSBzaG91bGQgZGVjaWRlIHRoZSBhcHByb3ByaWF0ZSBzaXplcy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiUmFpc2UgdGhlIGluY3JlYXNlZCB0ZWFtIHNpemUgYXMgYSBwb3RlbnRpYWwgaXNzdWUgYW5kIGhlbHAgdGhlIERldmVsb3BlcnMgZGVjaWRlIHdoYXQgdG8gZG8gYWJvdXQgaXQuIiwiY29ycmVjdCI6dHJ1ZX1dfQ=="
-    },
-    {
-      "id": 215,
-      "difficulty": "medium",
-      "topic": "",
-      "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IldoaWNoIHRlY2huaXF1ZSBpcyB0aGUgYmVzdCB3YXkgdGhlIFNjcnVtIE1hc3RlciBjYW4gZW5zdXJlIHRoYXQgdGhlIERldmVsb3BlcnMgY29tbXVuaWNhdGUgZWZmZWN0aXZlbHkgd2l0aCB0aGUgUHJvZHVjdCBPd25lcj8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiVGVhY2ggdGhlIERldmVsb3BlcnMgdG8gdGFsayBpbiB0ZXJtcyBvZiBidXNpbmVzcyBuZWVkcyBhbmQgb2JqZWN0aXZlcy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiT2JzZXJ2ZSBjb21tdW5pY2F0aW9ucyBiZXR3ZWVuIHRoZW0gYW5kIGZhY2lsaXRhdGUgZGlyZWN0IGNvbGxhYm9yYXRpb24uIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiRnVuY3Rpb24gYXMgYSBnby1iZXR3ZWVuIGZvciB0aGVtLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUZWFjaCB0aGUgUHJvZHVjdCBPd25lciBhYm91dCB0aGUgdGVjaG5vbG9naWVzIGVtcGxveWVkIGR1cmluZyB0aGUgU3ByaW50cy4iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
+      "data": "eyJxdWVzdGlvbiI6IkEgbmV3IERldmVsb3BlciBqb2lucyB0aGUgU2NydW0gVGVhbSwgYnJpbmdpbmcgdGhlIHRvdGFsIHRvIDExIHBlb3BsZS4gQXMgYSBTY3J1bSBNYXN0ZXIsIHdoYXQgaXMgdGhlIG1vc3QgYXBwcm9wcmlhdGUgYWN0aW9uPyIsIm9wdGlvbnMiOlt7InRleHQiOiJJbnN0cnVjdCB0aGUgRGV2ZWxvcGVycyB0byBzcGxpdCBpbnRvIDIgdGVhbXMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IkRvIG5vdGhpbmcsIHRoZSBEZXZlbG9wZXJzIG11c3QgZml4IGl0cyBvd24gaXNzdWVzLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJJbnN0cnVjdCB0aGUgRGV2ZWxvcGVycyB0byBzcGxpdCBpbnRvIDIgdGVhbXMsIHRoZXkgc2hvdWxkIGRlY2lkZSB0aGUgYXBwcm9wcmlhdGUgc2l6ZXMuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlJhaXNlIHRoZSBpbmNyZWFzZWQgdGVhbSBzaXplIGFzIGEgcG90ZW50aWFsIGlzc3VlIGFuZCBoZWxwIHRoZSBEZXZlbG9wZXJzIGRlY2lkZSB3aGF0IHRvIGRvIGFib3V0IGl0LiIsImNvcnJlY3QiOnRydWV9XX0="
     },
     {
       "id": 216,
@@ -1599,30 +1571,23 @@
       "data": "eyJxdWVzdGlvbiI6IldoZW4gZG9lcyBhIERldmVsb3BlciBiZWNvbWUgdGhlIHNvbGUgb3duZXIgb2YgYW4gaXRlbSBvbiB0aGUgU3ByaW50IEJhY2tsb2c/Iiwib3B0aW9ucyI6W3sidGV4dCI6IldoZW5ldmVyIGEgdGVhbSBtZW1iZXIgY2FuIGFjY29tbW9kYXRlIG1vcmUgd29yay4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiQXQgdGhlIFNwcmludCBQbGFubmluZyBldmVudCIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJOZXZlci4gQWxsIFNwcmludCBCYWNrbG9nIGl0ZW1zIGFyZSBcIm93bmVkXCIgYnkgdGhlIERldmVsb3BlcnMgb24gdGhlIFNjcnVtIFRlYW0uIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiRHVyaW5nIHRoZSBEYWlseSBTY3J1bSIsImNvcnJlY3QiOmZhbHNlfV19"
     },
     {
-      "id": 232,
-      "difficulty": "medium",
-      "topic": "",
-      "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIHR5cGljYWwgc2l6ZSBmb3IgYSBTY3J1bSBUZWFtPyIsIm9wdGlvbnMiOlt7InRleHQiOiIxMCBvciBmZXdlci4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJNaW5pbXVtIG9mIDcuIiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IjcgcGx1cyBvciBtaW51cyIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiI5IiwiY29ycmVjdCI6ZmFsc2V9XX0="
-    },
-    {
       "id": 233,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Definition",
       "multipleCorrect": false,
-      "data": "eyJxdWVzdGlvbiI6IkFuIG9yZ2FuaXphdGlvbiBoYXMgZGVjaWRlZCB0byBhZG9wdCBTY3J1bSwgYnV0IG1hbmFnZW1lbnQgd2FudHMgdG8gY2hhbmdlIHRoZSB0ZXJtaW5vbG9neSB0byBmaXQgd2l0aCB0ZXJtaW5vbG9neSBhbHJlYWR5IHVzZWQuIFdoYXQgd2lsbCBsaWtlbHkgaGFwcGVuIGlmIHRoaXMgaXMgZG9uZT8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiV2l0aG91dCBhIG5ldyB2b2NhYnVsYXJ5IGFzIGEgcmVtaW5kZXIgb2YgdGhlIGNoYW5nZSwgdmVyeSBsaXR0bGUgY2hhbmdlIG1heSBhY3R1YWxseSBoYXBwZW4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVGhlIG9yZ2FuaXphdGlvbiBtYXkgbm90IHVuZGVyc3RhbmQgd2hhdCBoYXMgY2hhbmdlZCB3aXRoIFNjcnVtIGFuZCB0aGUgYmVuZWZpdHMgb2YgU2NydW0gbWF5IGJlIGxvc3QiLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiTWFuYWdlbWVudCBtYXkgZmVlbCBsZXNzIGFueGlvdXMiLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiQWwgb2YgdGhlIGFib3ZlIiwiY29ycmVjdCI6dHJ1ZX1dfQ=="
+      "data": "eyJxdWVzdGlvbiI6IkFuIG9yZ2FuaXphdGlvbiBoYXMgZGVjaWRlZCB0byBhZG9wdCBTY3J1bSwgYnV0IG1hbmFnZW1lbnQgd2FudHMgdG8gY2hhbmdlIHRoZSB0ZXJtaW5vbG9neSB0byBmaXQgd2l0aCB0ZXJtaW5vbG9neSBhbHJlYWR5IHVzZWQuIFdoYXQgd2lsbCBsaWtlbHkgaGFwcGVuIGlmIHRoaXMgaXMgZG9uZT8iLCJvcHRpb25zIjpbeyJ0ZXh0IjoiV2l0aG91dCBhIG5ldyB2b2NhYnVsYXJ5IGFzIGEgcmVtaW5kZXIgb2YgdGhlIGNoYW5nZSwgdmVyeSBsaXR0bGUgY2hhbmdlIG1heSBhY3R1YWxseSBoYXBwZW4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVGhlIG9yZ2FuaXphdGlvbiBtYXkgbm90IHVuZGVyc3RhbmQgd2hhdCBoYXMgY2hhbmdlZCB3aXRoIFNjcnVtIGFuZCB0aGUgYmVuZWZpdHMgb2YgU2NydW0gbWF5IGJlIGxvc3QiLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiTWFuYWdlbWVudCBtYXkgZmVlbCBsZXNzIGFueGlvdXMiLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiQWwgb2YgdGhlIGFib3ZlIiwiY29ycmVjdCI6dHJ1ZSwicGluVG9Cb3R0b20iOnRydWV9XX0="
     },
     {
       "id": 234,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Scrum Team",
       "multipleCorrect": true,
-      "data": "eyJxdWVzdGlvbiI6IldoaWNoIG9mIHRoZSBmb2xsb3dpbmcgYXJlIGV4YW1wbGVzIG9mIGEgU2NydW0gVGVhbSBwcmFjdGljaW5nIFNjcnVtIHBvb3JseSBvciBub3QgZXhoaWJpdGluZyB0cmFpdHMgb2YgYSBzZWxmLW1hbmFnaW5nIFNjcnVtIFRlYW0/Iiwib3B0aW9ucyI6W3sidGV4dCI6IlRoZSBEZXZlbG9wZXJzIGhhdmUgYWxsIHRoZSBza2lsbHMgdGhleSBuZWVkIHRvIGNyZWF0ZSBhIHZhbHVhYmxlLCB1c2VmdWwgSW5jcmVtZW50IiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlN0YWtlTm9sZGVycyBhdHRlbmQgdGhlIERhaWx5IFNjcnVtIHRvIGNoZWNrIG9uIHRoZSBTY3J1bSBUZWFtJ3MgcHJvZ3Jlc3MuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiVGhlIERldmVsb3BlcnMgY3JlYXRlIHRoZWlyIG93biBTcHJpbnQgQmFja2xvZywgcmVmbGVjdGluZyBhbGwgd29yayB0aGF0IGkgcmVxdWlyZWQgdG8gbWVldCB0aGUgRGVmaW5pdGlvbiBvZiBEb25lLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGUgRGV2ZWxvcGVycyBhcmUgY29sbGFib3JhdGl2ZWx5IHNlbGVjdGluZyB0aGVpciBvd24gd29yayBkdXJpbmcgdGhlIFNwcmludCIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGUgRGV2ZWxvcGVycyBpbnZpdGUgZXh0ZXJuYWwgc3Rha2Vob2xkZXJzIHRvIHRoZSBTcHJpbnQgUGxhbm5pbmcgdG9zayB0aGVtIGhvdyB0byB0dXJuIGEgUHJvZHVjdCBCYWNrbG9nIGl0ZW0gaW50byBhbiBJbmNyZW1lbnQgdmlhIGEgY29tcGxldGUgYW5kIGRldGFpbGVkIFNwcmludCBCYWNrbG9nIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiVGhlIERldmVsb3BlcnMgYXJlIHdvcmtpbmcgd2l0aGluIHRoZSBib3VuZGFyaWVzIG9mIHRoZWlyIG9yZ2FuaXphdGlvbnMgZnVuY3Rpb25hbCBkZXNjcmlwdGlvbiBhbmQgbmljZWx5IGhhbmRpbmcgb2ZmIHdvcmsgZnJvbSBhbmFseXN0IHRvIERldmVsb3BlciB0byB0ZXN0ZXIgdG8gaW50ZWdyYXRpb24iLCJjb3JyZWN0Ijp0cnVlfV19"
+      "data": "eyJxdWVzdGlvbiI6IldoaWNoIG9mIHRoZSBmb2xsb3dpbmcgYXJlIGV4YW1wbGVzIG9mIGEgU2NydW0gVGVhbSBwcmFjdGljaW5nIFNjcnVtIHBvb3JseSBvciBub3QgZXhoaWJpdGluZyB0cmFpdHMgb2YgYSBzZWxmLW1hbmFnaW5nIFNjcnVtIFRlYW0/IChzZWxlY3QgYWxsIHRoYXQgYXBwbHkpIiwib3B0aW9ucyI6W3sidGV4dCI6IlRoZSBEZXZlbG9wZXJzIGhhdmUgYWxsIHRoZSBza2lsbHMgdGhleSBuZWVkIHRvIGNyZWF0ZSBhIHZhbHVhYmxlLCB1c2VmdWwgSW5jcmVtZW50IiwiY29ycmVjdCI6ZmFsc2V9LHsidGV4dCI6IlN0YWtlaG9sZGVycyBhdHRlbmQgdGhlIERhaWx5IFNjcnVtIHRvIGNoZWNrIG9uIHRoZSBTY3J1bSBUZWFtJ3MgcHJvZ3Jlc3MuIiwiY29ycmVjdCI6dHJ1ZX0seyJ0ZXh0IjoiVGhlIERldmVsb3BlcnMgY3JlYXRlIHRoZWlyIG93biBTcHJpbnQgQmFja2xvZywgcmVmbGVjdGluZyBhbGwgd29yayB0aGF0IGkgcmVxdWlyZWQgdG8gbWVldCB0aGUgRGVmaW5pdGlvbiBvZiBEb25lLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGUgRGV2ZWxvcGVycyBhcmUgY29sbGFib3JhdGl2ZWx5IHNlbGVjdGluZyB0aGVpciBvd24gd29yayBkdXJpbmcgdGhlIFNwcmludCIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGUgRGV2ZWxvcGVycyBpbnZpdGUgZXh0ZXJuYWwgc3Rha2Vob2xkZXJzIHRvIHRoZSBTcHJpbnQgUGxhbm5pbmcgdG8gYXNrIHRoZW0gaG93IHRvIHR1cm4gYSBQcm9kdWN0IEJhY2tsb2cgaXRlbSBpbnRvIGFuIEluY3JlbWVudCB2aWEgYSBjb21wbGV0ZSBhbmQgZGV0YWlsZWQgU3ByaW50IEJhY2tsb2ciLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJUaGUgRGV2ZWxvcGVycyBhcmUgd29ya2luZyB3aXRoaW4gdGhlIGJvdW5kYXJpZXMgb2YgdGhlaXIgb3JnYW5pemF0aW9ucyBmdW5jdGlvbmFsIGRlc2NyaXB0aW9uIGFuZCBuaWNlbHkgaGFuZGluZyBvZmYgd29yayBmcm9tIGFuYWx5c3QgdG8gRGV2ZWxvcGVyIHRvIHRlc3RlciB0byBpbnRlZ3JhdGlvbiIsImNvcnJlY3QiOnRydWV9XX0="
     },
     {
       "id": 235,
-      "difficulty": "medium",
-      "topic": "",
+      "difficulty": "easy",
+      "topic": "Daily Scrum",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IldobyBpcyByZXF1aXJlZCB0byBhdHRlbmQgdGhlIERhaWx5IFNjcnVtPyIsIm9wdGlvbnMiOlt7InRleHQiOiJUaGUgU2NydW0gTWFzdGVyIGFuZCBQcm9kdWN0IE93bmVyLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGUgRGV2ZWxvcGVycyBhbmQgU2NydW0gTWFzdGVyLiIsImNvcnJlY3QiOmZhbHNlfSx7InRleHQiOiJUaGUgRGV2ZWxvcGVycy4iLCJjb3JyZWN0Ijp0cnVlfSx7InRleHQiOiJUaGUgRGV2ZWxvcGVycyBhbmQgUHJvZHVjdCBPd25lci4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVGhlIFNjcnVtIFRlYW0iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
     },
@@ -1664,7 +1629,7 @@
     {
       "id": 241,
       "difficulty": "medium",
-      "topic": "",
+      "topic": "Sprint Backlog",
       "multipleCorrect": false,
       "data": "eyJxdWVzdGlvbiI6IlRoZSBEZXZlbG9wZXJzIHNob3VsZCBub3QgYmUgaW50ZXJydXB0ZWQgZHVyaW5nIHRoZSBTcHJpbnQgYW5kIHRoZSBTcHJpbnQgR29hbCBzaG91bGQgcmVtYWluIGludGFjdC4gVGhlc2UgYXJlIGNvbmRpdGlvbnMgdGhhdCBmb3N0ZXIgY3JlYXRpdml0eSwgcXVhbGl0eSBhbmQgcHJvZHVjdGl2aXR5LiBXaGljaCBvbmUgb2YgdGhlIGZvbGxvd2luZyBhbnN3ZXJzIGlzIEZBTFNFPyIsIm9wdGlvbnMiOlt7InRleHQiOiJUaGUgUHJvZHVjdCBPd25lciBjYW4gaGVscCBjbGFyaWZ5IG9yIG9wdGltaXplIHRoZSBTcHJpbnQgd2hlbiBhc2tlZCBieSB0aGUgRGV2ZWxvcGVycy4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVGhlIERldmVsb3BlcnMgbWF5IHdvcmsgd2l0aCB0aGUgUHJvZHVjdCBPd25lciB0byBhZGQgb3IgcmVtb3ZlIHdvcmsgaWYgdGhleSBmaW5kIHRoZW1zZWx2ZXMgd2l0aCBtb3JlIG9yIGxlc3MgY2FwYWNpdHkgdGhhbiBleHBlY3RlZC4iLCJjb3JyZWN0IjpmYWxzZX0seyJ0ZXh0IjoiVGhlIFNwcmludCBCYWNrbG9nIGlzIGZ1bGx5IGZvcm11bGF0ZWQgaW4gdGhlIFNwcmludCBQbGFubmluZyBldmVudCBhbmQgZG9lcyBub3QgY2hhbmdlIGR1cmluZyB0aGUgU3ByaW50LiIsImNvcnJlY3QiOnRydWV9LHsidGV4dCI6IkFzIGEgZGVjb21wb3NpdGlvbiBvZiB0aGUgc2VsZWN0ZWQgUHJvZHVjdCBCYWNrbG9nIGl0ZW1zLCB0aGUgU3ByaW50IEJhY2tsb2cgY2hhbmdlcyBhbmQgbWF5IGdyb3cgYXMgdGhlIHdvcmsgZW1lcmdlcy4iLCJjb3JyZWN0IjpmYWxzZX1dfQ=="
     },
