@@ -85,10 +85,21 @@ async function startExam() {
   // Decrypt questions
   examQuestions = examQuestions.map((q) => {
     const decrypted = JSON.parse(atob(q.data));
+
+    // Separate pinned and unpinned options
+    const pinnedOptions = decrypted.options.filter((opt) => opt.pinToBottom);
+    const unpinnedOptions = decrypted.options.filter((opt) => !opt.pinToBottom);
+
+    // Shuffle only unpinned options, then append pinned ones
+    const shuffledOptions = [
+      ...shuffleArray(unpinnedOptions),
+      ...pinnedOptions,
+    ];
+
     return {
       ...q,
       questionText: decrypted.question,
-      options: shuffleArray(decrypted.options),
+      options: shuffledOptions,
     };
   });
 
@@ -116,28 +127,80 @@ async function startExam() {
   renderQuestion();
 }
 
-// Question selection logic
+// Question selection logic with fallback
 function selectQuestions(questions, count, difficulty) {
-  let filtered = questions;
+  let filtered = [];
 
-  if (difficulty !== "all") {
-    if (difficulty === "mixed") {
-      // Realistic mix: 30% easy, 50% medium, 20% hard
-      const easy = questions.filter((q) => q.difficulty === "easy");
-      const medium = questions.filter((q) => q.difficulty === "medium");
-      const hard = questions.filter((q) => q.difficulty === "hard");
+  if (difficulty === "all") {
+    // Just shuffle and select from all questions
+    return shuffleArray(questions).slice(0, count);
+  }
 
-      const easyCount = Math.floor(count * 0.3);
-      const hardCount = Math.floor(count * 0.2);
-      const mediumCount = count - easyCount - hardCount;
+  if (difficulty === "mixed") {
+    // Realistic mix: 30% easy, 50% medium, 20% hard
+    const easy = questions.filter((q) => q.difficulty === "easy");
+    const medium = questions.filter((q) => q.difficulty === "medium");
+    const hard = questions.filter((q) => q.difficulty === "hard");
+    const untagged = questions.filter((q) => !q.difficulty);
 
-      filtered = [
-        ...shuffleArray(easy).slice(0, easyCount),
-        ...shuffleArray(medium).slice(0, mediumCount),
-        ...shuffleArray(hard).slice(0, hardCount),
-      ];
-    } else {
-      filtered = questions.filter((q) => q.difficulty === difficulty);
+    const easyCount = Math.floor(count * 0.3);
+    const hardCount = Math.floor(count * 0.2);
+    const mediumCount = count - easyCount - hardCount;
+
+    // Get what we can from each category
+    const selectedEasy = shuffleArray(easy).slice(0, easyCount);
+    const selectedMedium = shuffleArray(medium).slice(0, mediumCount);
+    const selectedHard = shuffleArray(hard).slice(0, hardCount);
+
+    filtered = [...selectedEasy, ...selectedMedium, ...selectedHard];
+
+    // If we don't have enough, fill with untagged questions
+    if (filtered.length < count) {
+      const needed = count - filtered.length;
+      const additionalQuestions = shuffleArray(untagged).slice(0, needed);
+      filtered = [...filtered, ...additionalQuestions];
+    }
+
+    // If still not enough, fill with any remaining questions
+    if (filtered.length < count) {
+      const needed = count - filtered.length;
+      const usedIds = new Set(filtered.map((q) => q.id || JSON.stringify(q)));
+      const remainingQuestions = questions.filter(
+        (q) => !usedIds.has(q.id || JSON.stringify(q))
+      );
+      const additionalQuestions = shuffleArray(remainingQuestions).slice(
+        0,
+        needed
+      );
+      filtered = [...filtered, ...additionalQuestions];
+    }
+  } else {
+    // Single difficulty selected (easy, medium, or hard)
+    const matchingDifficulty = questions.filter(
+      (q) => q.difficulty === difficulty
+    );
+    filtered = shuffleArray(matchingDifficulty).slice(0, count);
+
+    // If not enough questions with the selected difficulty, fill with untagged
+    if (filtered.length < count) {
+      const needed = count - filtered.length;
+      const untagged = questions.filter((q) => !q.difficulty);
+      const additionalQuestions = shuffleArray(untagged).slice(0, needed);
+      filtered = [...filtered, ...additionalQuestions];
+    }
+
+    // If still not enough, fill with any remaining questions
+    if (filtered.length < count) {
+      const needed = count - filtered.length;
+      const usedIds = new Set(filtered.map((q) => q.id || JSON.stringify(q)));
+      const remainingQuestions = questions.filter(
+        (q) => !usedIds.has(q.id || JSON.stringify(q))
+      );
+      const additionalQuestions = shuffleArray(remainingQuestions).slice(
+        0,
+        needed
+      );
+      filtered = [...filtered, ...additionalQuestions];
     }
   }
 
